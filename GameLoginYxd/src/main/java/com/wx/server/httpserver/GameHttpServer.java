@@ -45,7 +45,7 @@ public class GameHttpServer implements Closeable {
 			log.error("端口::" + port);
 			hs = HttpServer.create(new InetSocketAddress(Integer.parseInt(port)), 0);// 设置HttpServer的端口为8888
 			hs.createContext("/update_server", new UpdateServerListHandler());
-			log.error("::" + port);
+			log.error("结束::" + port);
 			hs.setExecutor(null); // creates a default executor
 			hs.start();
 			ShutDownThread.addCloseable(this);

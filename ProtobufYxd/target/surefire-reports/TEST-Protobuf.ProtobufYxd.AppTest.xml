@@ -14,13 +14,13 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="Service Pack 1"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="F:\game\ProtobufYxd"/>
+    <property name="user.dir" value="F:\mye10\rotegamegitcode\gameyxd\ProtobufYxd"/>
     <property name="java.runtime.version" value="1.7.0_79-b15"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="basedir" value="F:\game\ProtobufYxd"/>
+    <property name="basedir" value="F:\mye10\rotegamegitcode\gameyxd\ProtobufYxd"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_79\jre\lib\endorsed"/>
     <property name="os.arch" value="amd64"/>
-    <property name="surefire.real.class.path" value="F:\game\ProtobufYxd\target\surefire\surefirebooter1739892357008749070.jar"/>
+    <property name="surefire.real.class.path" value="F:\mye10\rotegamegitcode\gameyxd\ProtobufYxd\target\surefire\surefirebooter3257398657343686510.jar"/>
     <property name="java.io.tmpdir" value="C:\Users\ADMINI~1\AppData\Local\Temp\"/>
     <property name="line.separator" value="
 "/>
@@ -29,7 +29,7 @@
     <property name="os.name" value="Windows 7"/>
     <property name="sun.jnu.encoding" value="GBK"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_79\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files\Java\jdk1.7.0_79\jre\bin;D:\yxd\tool\work\developer\apache-maven-3.3.3\bin;D:\yxd\tool\svn\path\bin;D:\yxd\tool\ant\apache-ant-1.9.7-bin\apache-ant-1.9.7\bin;F:\nexus\nexus-3.0.1-01-win64\nexus-3.0.1-01\bin;;."/>
-    <property name="surefire.test.class.path" value="F:\game\ProtobufYxd\target\test-classes;F:\game\ProtobufYxd\target\classes;F:\mavenp\junit\junit\3.8.1\junit-3.8.1.jar;"/>
+    <property name="surefire.test.class.path" value="F:\mye10\rotegamegitcode\gameyxd\ProtobufYxd\target\test-classes;F:\mye10\rotegamegitcode\gameyxd\ProtobufYxd\target\classes;F:\mavenp\junit\junit\3.8.1\junit-3.8.1.jar;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="51.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -40,11 +40,11 @@
     <property name="java.specification.version" value="1.7"/>
     <property name="file.encoding" value="GBK"/>
     <property name="user.name" value="Administrator"/>
-    <property name="java.class.path" value="F:\game\ProtobufYxd\target\test-classes;F:\game\ProtobufYxd\target\classes;F:\mavenp\junit\junit\3.8.1\junit-3.8.1.jar;"/>
+    <property name="java.class.path" value="F:\mye10\rotegamegitcode\gameyxd\ProtobufYxd\target\test-classes;F:\mye10\rotegamegitcode\gameyxd\ProtobufYxd\target\classes;F:\mavenp\junit\junit\3.8.1\junit-3.8.1.jar;"/>
     <property name="java.vm.specification.version" value="1.7"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_79\jre"/>
-    <property name="sun.java.command" value="F:\game\ProtobufYxd\target\surefire\surefirebooter1739892357008749070.jar F:\game\ProtobufYxd\target\surefire\surefire6484833462595109717tmp F:\game\ProtobufYxd\target\surefire\surefire7705992255591606803tmp"/>
+    <property name="sun.java.command" value="F:\mye10\rotegamegitcode\gameyxd\ProtobufYxd\target\surefire\surefirebooter3257398657343686510.jar F:\mye10\rotegamegitcode\gameyxd\ProtobufYxd\target\surefire\surefire520757100460803554tmp F:\mye10\rotegamegitcode\gameyxd\ProtobufYxd\target\surefire\surefire7924364702786013803tmp"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="zh"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -61,5 +61,5 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase time="0.001" classname="Protobuf.ProtobufYxd.AppTest" name="testApp"/>
+  <testcase time="0" classname="Protobuf.ProtobufYxd.AppTest" name="testApp"/>
 </testsuite>

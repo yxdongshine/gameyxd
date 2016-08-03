@@ -42,7 +42,7 @@ public class GameHttpServer implements Closeable {
 	public void start() {
 		String port = ServerGameConfig.HTTP_SERVER_PORT;
 		try {
-			log.error("::" + port);
+			log.error("端口::" + port);
 			hs = HttpServer.create(new InetSocketAddress(Integer.parseInt(port)), 0);// 设置HttpServer的端口为8888
 			hs.createContext("/update_server", new UpdateServerListHandler());
 			log.error("::" + port);

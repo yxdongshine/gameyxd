@@ -35,22 +35,23 @@ import com.wx.server.utils.LogUtils;
 public class GameHttpServer implements Closeable {
 	private LogUtils log = LogUtils.getLog(GameHttpServer.class);
 	
+	@SuppressWarnings("restriction")
 	HttpServer hs = null;
 	
+	@SuppressWarnings("restriction")
 	public void start() {
 		String port = ServerGameConfig.HTTP_SERVER_PORT;
 		try {
-			log.error("平台服务器端口::" + port);
+			log.error("::" + port);
 			hs = HttpServer.create(new InetSocketAddress(Integer.parseInt(port)), 0);// 设置HttpServer的端口为8888
 			hs.createContext("/update_server", new UpdateServerListHandler());
-			log.error("平台服务器已开启::" + port);
+			log.error("::" + port);
 			hs.setExecutor(null); // creates a default executor
 			hs.start();
 			ShutDownThread.addCloseable(this);
-		} catch (NumberFormatException
-		    | IOException e) {
+		} catch (IOException e) {
 			
-			log.error("平台服务器有错误-----", e);
+			log.error("-----", e);
 		}
 		
 	}

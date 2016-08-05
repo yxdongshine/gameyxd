@@ -38,7 +38,7 @@ public class LoginServer {
 	}
 	
 	public void load() {
-		PropertyConfigurator.configure(com.wx.server.res.ResPath.USER_DIR + "/log4j.properties");
+		PropertyConfigurator.configure(com.wx.server.res.ResPath.USER_DIR + "/src/main/resources/config/log4j.properties");
 		SpringBeanFactory.springStart();// spring加载
 		this.loadLoaderManage();
 		

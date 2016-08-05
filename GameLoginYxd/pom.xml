@@ -106,22 +106,120 @@
 	<dependency>
 	    <groupId>org.springframework</groupId>
 	    <artifactId>spring-context</artifactId>
-	    <version>4.2.5.RELEASE</version>
+	    <version>3.2.2.RELEASE</version>
 	</dependency>
-	 <!--hibernate依赖  --> 
-    <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
+		<!-- https://mvnrepository.com/artifact/org.springframework/spring-beans -->
 	<dependency>
-	    <groupId>org.hibernate</groupId>
-	    <artifactId>hibernate-core</artifactId>
-	    <version>5.1.0.Final</version>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-beans</artifactId>
+	    <version>3.2.2.RELEASE</version>
 	</dependency>
-    
-    <!-- https://mvnrepository.com/artifact/org.springframework/spring-orm -->
+	<!-- https://mvnrepository.com/artifact/org.springframework/spring-core -->
+	<dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-core</artifactId>
+	    <version>3.2.2.RELEASE</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.springframework/spring-tx -->
+	<dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-tx</artifactId>
+	    <version>3.2.2.RELEASE</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.springframework/spring-aop -->
+	<dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-aop</artifactId>
+	    <version>3.2.2.RELEASE</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.springframework/spring-context-support -->
+	<dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-context-support</artifactId>
+	    <version>3.2.2.RELEASE</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.springframework/spring-expression -->
+	<dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-expression</artifactId>
+	    <version>3.2.2.RELEASE</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.springframework/spring-aspects -->
+	<dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-aspects</artifactId>
+	    <version>3.2.2.RELEASE</version>
+	</dependency>
+
+	<!-- https://mvnrepository.com/artifact/org.springframework/spring-orm -->
 	<dependency>
 	    <groupId>org.springframework</groupId>
 	    <artifactId>spring-orm</artifactId>
-	    <version>4.2.6.RELEASE</version>
+	    <version>3.2.2.RELEASE</version>
 	</dependency>
+
+	<!-- https://mvnrepository.com/artifact/org.springframework/spring-jdbc -->
+	<dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-jdbc</artifactId>
+	    <version>3.2.17.RELEASE</version>
+	</dependency>
+
+
+	<!--hibernate依赖  --> 
+	<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
+<!-- 	<dependency>
+	    <groupId>org.hibernate</groupId>
+	    <artifactId>hibernate-core</artifactId>
+	    <version>5.1.0.Final</version>
+	</dependency> -->
+<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate -->
+<dependency>
+    <groupId>org.hibernate</groupId>
+    <artifactId>hibernate</artifactId>
+    <version>3.2.7.ga</version>
+</dependency>
+
+
+	<!-- https://mvnrepository.com/artifact/javax.persistence/persistence-api -->
+	<dependency>
+	    <groupId>javax.persistence</groupId>
+	    <artifactId>persistence-api</artifactId>
+	    <version>1.0.2</version>
+	</dependency>
+
+	<!-- https://mvnrepository.com/artifact/org.hibernate.javax.persistence/hibernate-jpa-2.0-api -->
+	<dependency>
+	    <groupId>org.hibernate.javax.persistence</groupId>
+	    <artifactId>hibernate-jpa-2.0-api</artifactId>
+	    <version>1.0.1.Final</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/javax.transaction/jta -->
+	<dependency>
+	    <groupId>javax.transaction</groupId>
+	    <artifactId>jta</artifactId>
+	    <version>1.1</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-annotations -->
+	<dependency>
+	    <groupId>org.hibernate</groupId>
+	    <artifactId>hibernate-annotations</artifactId>
+	    <version>3.5.6-Final</version>
+	</dependency>
+<!-- https://mvnrepository.com/artifact/org.hibernate/ejb3-persistence -->
+<dependency>
+    <groupId>org.hibernate</groupId>
+    <artifactId>ejb3-persistence</artifactId>
+    <version>1.0.2.GA</version>
+    <type>pom</type>
+</dependency>
+
+
+
+
+
+
+
 	<!--fastjson 解析  -->   
 	<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core -->
 	<dependency>
@@ -135,6 +233,46 @@
 	    <artifactId>jackson-databind</artifactId>
 	    <version>2.7.4</version>
 	</dependency>
-
+   <!--连接池依赖  -->
+   <!-- https://mvnrepository.com/artifact/c3p0/c3p0 -->
+	<dependency>
+	    <groupId>c3p0</groupId>
+	    <artifactId>c3p0</artifactId>
+	    <version>0.9.1.2</version>
+	</dependency>
+   
   </dependencies>
+  
+  
+  <!-- 打包环境配置切换 -->
+  <profiles>
+        <profile>
+            <id>dev</id>
+            <activation>
+                <!--默认激活开发配制-->
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <build>
+                <filters>
+                    <filter>src/main/filters/dev.properties</filter>
+                </filters>
+            </build>
+        </profile>
+        <profile>
+            <id>test</id>
+            <build>
+                <filters>
+                    <filter>src/main/filters/test.properties</filter>
+                </filters>
+            </build>
+        </profile>
+        <profile>
+            <id>pro</id>
+            <build>
+                <filters>
+                    <filter>src/main/filters/pro.properties</filter>
+                </filters>
+            </build>
+        </profile>
+    </profiles>
 </project>

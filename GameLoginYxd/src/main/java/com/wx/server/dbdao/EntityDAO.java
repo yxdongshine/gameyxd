@@ -199,7 +199,7 @@ public class EntityDAO extends DbDao implements Runnable {
 		log.debug("finding instance with property: " + propertyName + ", value: " + value);
 		try {
 			String queryString = "from " + c.getName() + " as model where model." + propertyName + "= :"+propertyName;
-			Query queryObject = this.currentSession().createQuery(queryString);
+			Query queryObject = this.getSession().createQuery(queryString);
 
 			if (value != null) {
 				//for (int i = 0; i < values.length; i++) {
@@ -231,7 +231,7 @@ public class EntityDAO extends DbDao implements Runnable {
 				}
 			}
 			
-			Query queryObject = this.currentSession().createQuery(queryString);
+			Query queryObject = this.getSession().createQuery(queryString);
 			if (value != null) {
 				for (int i = 0; i < value.length; i++) {
 					queryObject.setParameter(propertyName[i], value[i]);

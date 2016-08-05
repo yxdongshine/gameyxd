@@ -12,5 +12,5 @@ package com.wx.server.res;
  */
 public interface ResPath {
 	public static final String USER_DIR = System.getProperty("user.dir");
-	public static final String RES_DIR = USER_DIR + "/res/";
+	public static final String RES_DIR = USER_DIR + "/src/main/resources/res/";
 }

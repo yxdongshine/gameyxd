@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<scheduler>
+  <!--这个一个注释-->
+  <proxys>
+    <proxy code="0x011C" class-name="ServerListResponse" entry-bean="loginServerControl" rights="all"/>
+    <proxy code="0x011B" class-name="ServerListRequest" entry-bean="loginServerControl" rights="all"/>
+    <proxy code="0x3011D" class-name="EnterGameRequest" entry-bean="loginServerControl" rights="all"/>
+    <proxy code="0x0100002" class-name="CheckTokenResponse" entry-bean="loginServerControl" rights="all"/>
+    <proxy code="0x0100001" class-name="CheckTokenRequest" entry-bean="loginServerControl" rights="all"/>
+    <proxy code="0x0100003" class-name="OnLineCountRequest" entry-bean="loginServerControl" rights="all"/>
+    <proxy code="0x0100000" class-name="RegisterRequest" entry-bean="loginServerControl" rights="all"/>
+    <proxy code="0x30117" class-name="CreateRoleRequest" entry-bean="loginServerControl" rights="all"/>
+    <proxy code="0x2010D" class-name="ResetTalentRequest" entry-bean="loginServerControl" rights="all"/>
+    <proxy code="0x30118" class-name="CreateRoleResponse" entry-bean="loginServerControl" rights="all"/>
+    <proxy code="0x0108" class-name="VerifyMailResponse" entry-bean="loginServerControl" rights="all"/>
+    <proxy code="0x0017" class-name="StatusCodeResponse" entry-bean="loginServerControl" rights="all"/>
+    <proxy code="0x2010E" class-name="ResetTalentResponse" entry-bean="loginServerControl" rights="all"/>
+    <proxy code="0x0107" class-name="VerifyMailRequest" entry-bean="loginServerControl" rights="all"/>
+    <proxy code="0x0109" class-name="FindBackPasswordRequest" entry-bean="loginServerControl" rights="all"/>
+    <proxy code="0x20115" class-name="DelRoletRequest" entry-bean="loginServerControl" rights="all"/>
+    <proxy code="0x010A" class-name="FindBackPasswordResponse" entry-bean="loginServerControl" rights="all"/>
+    <proxy code="0x3010B" class-name="LoginGameServerRequest" entry-bean="loginServerControl" rights="all"/>
+    <proxy code="0x3010C" class-name="RoleListResponse" entry-bean="loginServerControl" rights="all"/>
+    <proxy code="0x0103" class-name="LoginServerRequest" entry-bean="loginServerControl" rights="all"/>
+    <proxy code="0x0104" class-name="LoginServerResponse" entry-bean="loginServerControl" rights="all"/>
+    <proxy code="0x0105" class-name="ModifyPassWordRequest" entry-bean="loginServerControl" rights="all"/>
+    <proxy code="0x0106" class-name="ModifyPassWordResponse" entry-bean="loginServerControl" rights="all"/>
+    <proxy code="0x0101" class-name="RegisterAccountRequest" entry-bean="loginServerControl" rights="all"/>
+    <proxy code="0x0102" class-name="RegisterAccountResponse" entry-bean="loginServerControl" rights="all"/>
+  </proxys>
+</scheduler>

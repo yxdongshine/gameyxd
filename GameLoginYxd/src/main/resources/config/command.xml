@@ -1,0 +1,50 @@
+<message>
+
+	<proxys>
+	<proxy code="0x0011" class-name="CheckTokenRequest" entry-bean="gameServerControl" rights="all-pass" />
+	<proxy code="0x0012" class-name="CheckTokenResponse" entry-bean="gameServerControl" rights="all-pass" />
+	<proxy code="0x0013" class-name="OnLineCountRequest" entry-bean="gameServerControl" rights="all-pass" />
+	<proxy code="0x0017" class-name="StatusCodeResponse" entry-bean="gameServerControl" rights="all-pass" />
+	<proxy code="0x010B" class-name="LoginGameServerRequest" entry-bean="gameServerControl" rights="all-pass" />
+	<proxy code="0x010C" class-name="RoleListResponse" entry-bean="gameServerControl" rights="all-pass" />
+	<proxy code="0x010D" class-name="ResetTalentRequest" entry-bean="gameServerControl" rights="all-pass" />
+	<proxy code="0x010E" class-name="ResetTalentResponse" entry-bean="gameServerControl" rights="all-pass" />
+	<proxy code="0x011D" class-name="EnterGameRequest" entry-bean="gameServerControl" rights="all-pass" />
+	<proxy code="0x0115" class-name="DelRoletRequest" entry-bean="gameServerControl" rights="all-pass" />
+	<proxy code="0x0117" class-name="CreateRoleRequest" entry-bean="gameServerControl" rights="all-pass" />
+	<proxy code="0x0118" class-name="CreateRoleResponse" entry-bean="gameServerControl" rights="all-pass" />
+	
+	<!-- 0x0200角色相关 -->
+	<proxy code="0x0200" class-name="PickUpMoneyRequest" entry-bean="gameServerControl" rights="all-pass" />
+	<proxy code="0x0201" class-name="PickUpMoneyResponse" entry-bean="gameServerControl" rights="all-pass" />
+	<proxy code="0x0201" class-name="PickUpMoneyResponse" entry-bean="gameServerControl" rights="all-pass" />
+	<proxy code="0x0202" class-name="UdateAllAttributesToPlayerResponse" entry-bean="gameServerControl" rights="all-pass" />
+	<proxy code="0x0203" class-name="UpdateAttributeToPlayerResponse" entry-bean="gameServerControl" rights="all-pass" />
+	<!-- 0x0700 道具相关-->
+	<proxy code="0x0700" class-name="OpenRoleBagReqest" entry-bean="gameServerControl" rights="all-pass" />
+	<proxy code="0x0701" class-name="OpenRoleBagResponse" entry-bean="gameServerControl" rights="all-pass" />
+	<proxy code="0x0702" class-name="AddItemToBagResponse" entry-bean="gameServerControl" rights="all-pass" />
+	<proxy code="0x0703" class-name="UpdateItemToBagResponse" entry-bean="gameServerControl" rights="all-pass" />
+	<proxy code="0x0704" class-name="DelItemFromBagResponse" entry-bean="gameServerControl" rights="all-pass" />
+	<proxy code="0x0705" class-name="PickUpItemRequest" entry-bean="gameServerControl" rights="all-pass" />
+	<proxy code="0x0706" class-name="PickUpItemResponse" entry-bean="gameServerControl" rights="all-pass" />
+	<proxy code="0x0707" class-name="BuyItemRequest" entry-bean="gameServerControl" rights="all-pass" />
+	<proxy code="0x0708" class-name="BuyItemResponse" entry-bean="gameServerControl" rights="all-pass" />
+	<proxy code="0x0709" class-name="SaleItemRequest" entry-bean="gameServerControl" rights="all-pass" />
+	<proxy code="0x070A" class-name="SaleItemResponse" entry-bean="gameServerControl" rights="all-pass" />
+	<proxy code="0x070B" class-name="ExchangeItemRequest" entry-bean="gameServerControl" rights="all-pass" />
+	<proxy code="0x070C" class-name="ExchangeItemResponse" entry-bean="gameServerControl" rights="all-pass" />
+	<proxy code="0x070D" class-name="UseItemRequest" entry-bean="gameServerControl" rights="all-pass" />
+	<proxy code="0x070E" class-name="ExpandGridRequest" entry-bean="gameServerControl" rights="all-pass" />
+	<proxy code="0x070F" class-name="ExpandGridResponse" entry-bean="gameServerControl" rights="all-pass" />
+	<proxy code="0x0710" class-name="LookUpItemRequest" entry-bean="gameServerControl" rights="all-pass" />
+	<proxy code="0x0711" class-name="LookUpItemResponse" entry-bean="gameServerControl" rights="all-pass" />
+	<proxy code="0x0712" class-name="GiveUpItemResquest" entry-bean="gameServerControl" rights="all-pass" />
+	<proxy code="0x0713" class-name="PutOnEquipToBodyResquest" entry-bean="gameServerControl" rights="all-pass" />
+	<proxy code="0x0714" class-name="PutOnEquipToBodyResponse" entry-bean="gameServerControl" rights="all-pass" />
+	<proxy code="0x0715" class-name="RemoveEquipFromBodyRequest" entry-bean="gameServerControl" rights="all-pass" />
+	<proxy code="0x0716" class-name="RemoveEquipFromBodyResponse" entry-bean="gameServerControl" rights="all-pass" />
+	
+	</proxys>
+	
+</message>

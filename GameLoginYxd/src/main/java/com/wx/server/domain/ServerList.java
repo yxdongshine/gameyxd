@@ -18,6 +18,7 @@ import org.hibernate.annotations.Index;
  * @version
  * @see
  */
+@SuppressWarnings("deprecation")
 @Entity
 @Table(name = "server_list")
 public class ServerList {

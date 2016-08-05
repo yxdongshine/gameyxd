@@ -3,10 +3,9 @@ package com.wx.server.dbdao;
 import java.util.List;
 import java.util.concurrent.ScheduledThreadPoolExecutor;
 
-import org.apache.commons.logging.Log;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
-import org.springframework.orm.hibernate5.support.HibernateDaoSupport;
+import org.springframework.orm.hibernate3.support.HibernateDaoSupport;
 
 import com.wx.server.domain.DbEntity;
 import com.wx.server.utils.LogUtils;
@@ -78,7 +77,7 @@ public abstract class DbDao extends HibernateDaoSupport {
 	 */
 	protected void updateEntityDb(List<Object> list, int size) {
 		long startTime = System.currentTimeMillis();
-		Session se = currentSession();
+		Session se = getSession();
 		Transaction tt = se.beginTransaction();
 		while (size > 0) {
 			size--;
@@ -117,7 +116,7 @@ public abstract class DbDao extends HibernateDaoSupport {
 	 */
 	protected void saveEntityDb(List<Object> list, int size) {
 		long startTime = System.currentTimeMillis();
-		Session se = currentSession();
+		Session se = getSession();
 		Transaction tt = se.beginTransaction();
 		while (size > 0) {
 			size--;

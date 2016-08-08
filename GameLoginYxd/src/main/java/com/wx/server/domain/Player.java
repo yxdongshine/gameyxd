@@ -22,7 +22,7 @@ public class Player extends DbEntity {
 	/****/
 	private static final long serialVersionUID = -3267935359170487666L;
 	
-	/** 账号 **/
+	/** 账号 gf**/
 	
 	private String accountName;// 账号
 	/** 密码 **/

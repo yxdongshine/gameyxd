@@ -1,7 +1,7 @@
 package com.wx.server.domain;
 
 import javax.persistence.Entity;
-import javax.persistence.Index;
+/*import javax.persistence.Index;*/
 import javax.persistence.Table;
 
 
@@ -16,7 +16,7 @@ import javax.persistence.Table;
  * @see
  */
 @Entity
-@Table(name = "loncent_player",indexes={@Index(name = "account_name",columnList="accountName")})
+@Table(name = "loncent_player"/*,indexes ={@Index(name = "account_name",columnList="accountName")}*/)
 public class Player extends DbEntity {
 	
 	/****/

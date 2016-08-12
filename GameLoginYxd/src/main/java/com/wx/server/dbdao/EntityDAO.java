@@ -4,7 +4,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
-import org.apache.commons.logging.Log;
 import org.hibernate.Query;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Propagation;
@@ -13,12 +12,7 @@ import org.springframework.transaction.annotation.Transactional;
 import com.wx.server.domain.DbEntity;
 import com.wx.server.utils.LogUtils;
 
-/**
- * 数据保存
- * 
- * @author lyh
- */
-@Component
+@Component("entityDAO")
 public class EntityDAO extends DbDao implements Runnable {
 	
 	private LogUtils log = LogUtils.getLog(EntityDAO.class);

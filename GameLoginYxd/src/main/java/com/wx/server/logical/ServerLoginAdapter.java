@@ -1,17 +1,12 @@
 package com.wx.server.logical;
 
-import org.apache.commons.logging.Log;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.loncent.protocol.cmd.Command.CmdType;
 import com.loncent.protocol.stauscode.StatusCode.StatusCodeResponse;
 import com.lx.server.mina.session.IConnect;
 import com.wx.server.container.GlobalContainer;
 import com.wx.server.dbdao.EntityDAO;
-import com.wx.server.excel.model.StatusCodeModel;
-import com.wx.server.excel.pojo.StatusCodePojo;
-import com.wx.server.msgloader.Head;
 import com.wx.server.utils.LogUtils;
 
 /**
@@ -38,8 +33,8 @@ public class ServerLoginAdapter {
 	
 	protected LogUtils log = LogUtils.getLog(this.getClass());
 	
-	@Autowired
-	protected EntityDAO entityDao;
+	@Autowired(required=false)
+	public EntityDAO entityDao;
 	
 	@Autowired
 	protected GlobalContainer globalContainer;

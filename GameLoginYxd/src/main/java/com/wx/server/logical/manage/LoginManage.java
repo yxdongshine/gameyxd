@@ -32,7 +32,8 @@ public class LoginManage implements IManage {
 	public static CopyOnWriteArraySet<LoginServerList> areaListMap = new CopyOnWriteArraySet<LoginServerList>();
 	/** 服务器列表map Integer=服务器id,服务器对象 **/
 	public static ConcurrentHashMap<String, ServerList> serverListMap = new ConcurrentHashMap<String, ServerList>();
-	@Autowired
+	
+	@Autowired(required=false)
 	private EntityDAO entityDao;
 	
 	@Override

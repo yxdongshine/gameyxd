@@ -3,7 +3,6 @@ package com.wx.server.logical.inner;
 import org.springframework.stereotype.Component;
 
 import com.loncent.protocol.BaseMessage.MinaMessage;
-import com.loncent.protocol.cmd.Command.CmdType;
 import com.loncent.protocol.cmd.InnerCommand.CmdInnerType;
 import com.loncent.protocol.inner.CheckToken.CheckTokenRequest;
 import com.loncent.protocol.inner.CheckToken.CheckTokenResponse;

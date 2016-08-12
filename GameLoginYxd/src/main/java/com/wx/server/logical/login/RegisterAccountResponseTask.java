@@ -34,7 +34,8 @@ import com.wx.server.utils.ToolUtils;
 @Component
 @Head(CmdType.C_L_REGISTER_ACCOUNT_REQUEST_VALUE)
 public class RegisterAccountResponseTask extends ServerLoginAdapter implements GameMessage<MinaMessage> {
-	@Autowired
+	
+	@Autowired(required=false)
 	private EntityDAO entityDao;
 	
 	@Override

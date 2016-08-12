@@ -15,5 +15,6 @@ import com.wx.server.res.ResPath;
 public interface IPropertiesResPath {
 	String PROPERITES = ".properties";
 	String TXT = ".txt";
-	String GAME_P = ResPath.USER_DIR + "/game" + PROPERITES;
+	String userPath="\\src\\main\\resources\\config";
+	String GAME_P = ResPath.USER_DIR +userPath+ "/game" + PROPERITES;
 }

@@ -3,7 +3,7 @@
 	<login>
 		<id>11</id>
 		<name>登录服</name>
-		<host>192.168.2.210</host>
+		<host>1192.168.40.47</host>
 		<acceptor port="1001" />
 	</login>
 	
@@ -61,9 +61,9 @@
 	<client>
 		<id>61</id>
 		<name>客户端</name>
-		<host>0.0.0.0</host>
+		<host>192.168.40.47</host>
 		<connector >
-			<conn toId="21" minaCon="true"/>
+			<conn toId="11" minaCon="true"/>
 			
 		</connector>
 	</client>

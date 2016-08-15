@@ -941,3 +941,184 @@ Using DataSource [{
 ======����˿�:1001�ɹ�======
 端口::2586
 结束::2586
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@38a09316: startup date [Mon Aug 15 17:02:39 CST 2016]; root of context hierarchy
+Loading XML bean definitions from class path resource [beans.xml]
+Overriding bean definition for bean 'entityDAO': replacing [Generic bean: class [com.wx.server.dbdao.EntityDAO]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [F:\mye10\rotegamegitcode\gameyxd\GameLoginYxd\target\classes\com\wx\server\dbdao\EntityDAO.class]] with [Generic bean: class [com.wx.server.dbdao.EntityDAO]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [beans.xml]]
+Loading properties file from URL [file:F:/mye10/rotegamegitcode/gameyxd/GameLoginYxd/src/main/resources/config/jdbc.properties]
+Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@51a3df98: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,globalContainer,loginServerControl,entityDAO,serverCodeModel,statusCodeModel,excelManage,gameHttpServer,checkTokenResponseTask,onlineCountResponseTask,findBackPasswordResponseTask,loginServerResponseTask,modifyPassWordResponseTask,registerAccountResponseTask,serverListResponseTask,verifyMailResponseTask,loginManage,serverLoginAdapter,minaServer,serverListener,commondClassLoader,loaderManage,jsonObjectMapper,org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor#0,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,dataSource,sf,txManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+{dataSource-1} inited
+HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+HHH000412: Hibernate Core {4.1.7.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+HHH000228: Running hbm2ddl schema update
+HHH000102: Fetching database metadata
+HHH000396: Updating schema
+HHH000261: Table found: loncent_login_server.area_list
+HHH000037: Columns: [id, areaname, status]
+HHH000108: Foreign keys: []
+HHH000126: Indexes: [primary]
+HHH000261: Table found: loncent_login_server.loncent_player
+HHH000037: Columns: [phonetype, id, accountname, channleid, imei, appid, phonenum, password, lastserverid, version, mailaddress]
+HHH000108: Foreign keys: []
+HHH000126: Indexes: [primary]
+HHH000261: Table found: loncent_login_server.server_list
+HHH000037: Columns: [port, id, maxplayerlimit, sortindex, status, isnewserver, areaid, servername, currentappid, ip]
+HHH000108: Foreign keys: []
+HHH000126: Indexes: [area_id, primary]
+HHH000232: Schema update complete
+Using DataSource [{
+	CreateTime:"2016-08-15 17:02:39",
+	ActiveCount:0,
+	PoolingCount:1,
+	CreateCount:1,
+	DestroyCount:0,
+	CloseCount:2,
+	ConnectCount:2,
+	Connections:[
+		{ID:1396821111, ConnectTime:"2016-08-15 17:02:40", UseCount:2, LastActiveTime:"2016-08-15 17:02:40"}
+	]
+}
+
+[
+	{
+	ID:1396821111, 
+	poolStatements:[
+		]
+	}
+]] of Hibernate SessionFactory for HibernateTransactionManager
+服务器ip:127.0.0.1:port:1001:serverId1
+======Э���ʼ��======
+======Э���ʼ���ɹ�======
+======����˿�:1001�ɹ�======
+端口::2586
+结束::2586
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3618a665: startup date [Mon Aug 15 17:19:04 CST 2016]; root of context hierarchy
+Loading XML bean definitions from class path resource [beans.xml]
+Overriding bean definition for bean 'entityDAO': replacing [Generic bean: class [com.wx.server.dbdao.EntityDAO]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [F:\mye10\rotegamegitcode\gameyxd\GameLoginYxd\target\classes\com\wx\server\dbdao\EntityDAO.class]] with [Generic bean: class [com.wx.server.dbdao.EntityDAO]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [beans.xml]]
+Loading properties file from URL [file:F:/mye10/rotegamegitcode/gameyxd/GameLoginYxd/src/main/resources/config/jdbc.properties]
+Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@5dac9e07: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,globalContainer,loginServerControl,entityDAO,serverCodeModel,statusCodeModel,excelManage,gameHttpServer,checkTokenResponseTask,onlineCountResponseTask,findBackPasswordResponseTask,loginServerResponseTask,modifyPassWordResponseTask,registerAccountResponseTask,serverListResponseTask,verifyMailResponseTask,loginManage,serverLoginAdapter,minaServer,serverListener,commondClassLoader,loaderManage,jsonObjectMapper,org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor#0,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,dataSource,sf,txManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+{dataSource-1} inited
+HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+HHH000412: Hibernate Core {4.1.7.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+HHH000228: Running hbm2ddl schema update
+HHH000102: Fetching database metadata
+HHH000396: Updating schema
+HHH000261: Table found: loncent_login_server.area_list
+HHH000037: Columns: [id, areaname, status]
+HHH000108: Foreign keys: []
+HHH000126: Indexes: [primary]
+HHH000261: Table found: loncent_login_server.loncent_player
+HHH000037: Columns: [phonetype, id, accountname, channleid, imei, appid, phonenum, password, lastserverid, version, mailaddress]
+HHH000108: Foreign keys: []
+HHH000126: Indexes: [primary]
+HHH000261: Table found: loncent_login_server.server_list
+HHH000037: Columns: [port, id, maxplayerlimit, sortindex, status, isnewserver, areaid, servername, currentappid, ip]
+HHH000108: Foreign keys: []
+HHH000126: Indexes: [area_id, primary]
+HHH000232: Schema update complete
+Using DataSource [{
+	CreateTime:"2016-08-15 17:19:04",
+	ActiveCount:0,
+	PoolingCount:1,
+	CreateCount:1,
+	DestroyCount:0,
+	CloseCount:2,
+	ConnectCount:2,
+	Connections:[
+		{ID:187447673, ConnectTime:"2016-08-15 17:19:05", UseCount:2, LastActiveTime:"2016-08-15 17:19:05"}
+	]
+}
+
+[
+	{
+	ID:187447673, 
+	poolStatements:[
+		]
+	}
+]] of Hibernate SessionFactory for HibernateTransactionManager
+服务器ip:192.168.40.47:port:1001:serverId1
+======Э���ʼ��======
+======Э���ʼ���ɹ�======
+======����˿�:1001�ɹ�======
+端口::1001
+-----
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:444)
+	at sun.nio.ch.Net.bind(Net.java:436)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:214)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at sun.net.httpserver.ServerImpl.<init>(ServerImpl.java:100)
+	at sun.net.httpserver.HttpServerImpl.<init>(HttpServerImpl.java:50)
+	at sun.net.httpserver.DefaultHttpServerProvider.createHttpServer(DefaultHttpServerProvider.java:35)
+	at com.sun.net.httpserver.HttpServer.create(HttpServer.java:129)
+	at com.wx.server.httpserver.GameHttpServer.start(GameHttpServer.java:46)
+	at com.wx.server.start.LoaderManage.load(LoaderManage.java:47)
+	at com.wx.server.start.LoginServer.loadLoaderManage(LoginServer.java:57)
+	at com.wx.server.start.LoginServer.load(LoginServer.java:43)
+	at com.wx.server.start.LoginServer.main(LoginServer.java:37)
+	at com.wx.server.start.LoginStart.main(LoginStart.java:27)
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6ea1ade8: startup date [Mon Aug 15 17:22:45 CST 2016]; root of context hierarchy
+Loading XML bean definitions from class path resource [beans.xml]
+Overriding bean definition for bean 'entityDAO': replacing [Generic bean: class [com.wx.server.dbdao.EntityDAO]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [F:\mye10\rotegamegitcode\gameyxd\GameLoginYxd\target\classes\com\wx\server\dbdao\EntityDAO.class]] with [Generic bean: class [com.wx.server.dbdao.EntityDAO]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [beans.xml]]
+Loading properties file from URL [file:F:/mye10/rotegamegitcode/gameyxd/GameLoginYxd/src/main/resources/config/jdbc.properties]
+Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@2f54745e: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,globalContainer,loginServerControl,entityDAO,serverCodeModel,statusCodeModel,excelManage,gameHttpServer,checkTokenResponseTask,onlineCountResponseTask,findBackPasswordResponseTask,loginServerResponseTask,modifyPassWordResponseTask,registerAccountResponseTask,serverListResponseTask,verifyMailResponseTask,loginManage,serverLoginAdapter,minaServer,serverListener,commondClassLoader,loaderManage,jsonObjectMapper,org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor#0,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,dataSource,sf,txManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+{dataSource-1} inited
+HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+HHH000412: Hibernate Core {4.1.7.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+HHH000228: Running hbm2ddl schema update
+HHH000102: Fetching database metadata
+HHH000396: Updating schema
+HHH000261: Table found: loncent_login_server.area_list
+HHH000037: Columns: [id, areaname, status]
+HHH000108: Foreign keys: []
+HHH000126: Indexes: [primary]
+HHH000261: Table found: loncent_login_server.loncent_player
+HHH000037: Columns: [phonetype, id, accountname, channleid, imei, appid, phonenum, password, lastserverid, version, mailaddress]
+HHH000108: Foreign keys: []
+HHH000126: Indexes: [primary]
+HHH000261: Table found: loncent_login_server.server_list
+HHH000037: Columns: [port, id, maxplayerlimit, sortindex, status, isnewserver, areaid, servername, currentappid, ip]
+HHH000108: Foreign keys: []
+HHH000126: Indexes: [area_id, primary]
+HHH000232: Schema update complete
+Using DataSource [{
+	CreateTime:"2016-08-15 17:22:45",
+	ActiveCount:0,
+	PoolingCount:1,
+	CreateCount:1,
+	DestroyCount:0,
+	CloseCount:2,
+	ConnectCount:2,
+	Connections:[
+		{ID:42120482, ConnectTime:"2016-08-15 17:22:46", UseCount:2, LastActiveTime:"2016-08-15 17:22:46"}
+	]
+}
+
+[
+	{
+	ID:42120482, 
+	poolStatements:[
+		]
+	}
+]] of Hibernate SessionFactory for HibernateTransactionManager
+服务器ip:192.168.40.47:port:1001:serverId1
+======Э���ʼ��======
+======Э���ʼ���ɹ�======
+======����˿�:1001�ɹ�======
+端口::2586
+结束::2586

@@ -33,8 +33,8 @@ public class LoginManage implements IManage {
 	/** 服务器列表map Integer=服务器id,服务器对象 **/
 	public static ConcurrentHashMap<String, ServerList> serverListMap = new ConcurrentHashMap<String, ServerList>();
 	
-	@Autowired(required=false)
-	private EntityDAO entityDao;
+	@Autowired(required=true)
+	private com.wx.server.dbdao.EntityDAOInterface entityDAOInterface;
 	
 	@Override
 	public void load() {
@@ -42,13 +42,13 @@ public class LoginManage implements IManage {
 		serverListMap.clear();
 		// 加载大区列表
 		// TODO Auto-generated method stub
-		List<AreaList> arealist = entityDao.findByHql(HQL.LOAD_AREA_LIST);
+		List<AreaList> arealist = entityDAOInterface.findByHql(HQL.LOAD_AREA_LIST);
 		for (AreaList area : arealist) {
 			addArea(area);
 		}
 		
 		// 加载服务器列表
-		List<ServerList> serverLists = entityDao.findByHql(HQL.LOAD_SERVER_LIST);
+		List<ServerList> serverLists = entityDAOInterface.findByHql(HQL.LOAD_SERVER_LIST);
 		for (LoginServerList lsl : areaListMap) {
 			for (ServerList server : serverLists) {
 				if (server.getAreaId() == lsl.getAreaList().getId()) {

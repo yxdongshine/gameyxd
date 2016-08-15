@@ -15,6 +15,7 @@ import java.util.ArrayList;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
@@ -49,7 +50,8 @@ public class UpdateServerListHandler implements HttpHandler {
 	/** 命令 **/
 	private String cmdV[] = { "add", "update", "del" };
 	
-	private EntityDAO dao = (EntityDAO) SpringBeanFactory.getSpringBean("entityDAO");
+	@Autowired(required=true)
+	private com.wx.server.dbdao.EntityDAOInterface dao;
 	
 	@Override
 	public void handle(HttpExchange he) throws IOException {

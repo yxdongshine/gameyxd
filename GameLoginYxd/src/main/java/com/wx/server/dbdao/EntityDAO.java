@@ -5,6 +5,8 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
 import org.hibernate.Query;
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
@@ -13,7 +15,7 @@ import com.wx.server.domain.DbEntity;
 import com.wx.server.utils.LogUtils;
 
 @Component("entityDAO")
-public class EntityDAO extends DbDao implements Runnable {
+public class EntityDAO extends DbDao implements Runnable,EntityDAOInterface {
 	
 	private LogUtils log = LogUtils.getLog(EntityDAO.class);
 	
@@ -22,7 +24,8 @@ public class EntityDAO extends DbDao implements Runnable {
 	
 	/** 删除数据容器 **/
 	private Map<Long, DbEntity> deleteDbList = new ConcurrentHashMap<Long, DbEntity>();
-	
+	@Autowired
+	private SessionFactory sessionFactory;
 	@Override
 	@Transactional(propagation = Propagation.REQUIRED, readOnly = false)
 	public Long save(DbEntity transientInstance) {
@@ -246,7 +249,7 @@ public class EntityDAO extends DbDao implements Runnable {
 	public <T> List<T> findByHql(String hql) {
 		log.debug("finding instance with hql: " + hql);
 		try {
-			return (List<T>) getHibernateTemplate().find(hql);
+			return (List<T>) sessionFactory.getCurrentSession().createQuery(hql).list();
 		} catch (RuntimeException re) {
 			log.error("find by property name failed", re);
 			re.printStackTrace();

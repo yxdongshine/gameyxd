@@ -40,7 +40,7 @@ public class LoaderManage {
 		ServerGameConfig.loadGameConfig();// 加载游戏配置
 		cml.setPackageName(ServerGameConfig.LOGICAL_PACKAGE);
 		cml.initialize(SpringBeanFactory.factory);// 逻辑加载
-		excelManage.load();// 加载excel配置文件
+		//excelManage.load();// 加载excel配置文件
 		loginManage.load();// 登录加载
 		
 		minaServer.startServer();// 加载网络服务

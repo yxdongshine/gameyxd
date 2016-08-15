@@ -1,0 +1,27 @@
+id	name	level	itemClass	mainAttribute	quality	price	currency	career	bind	bagClass	socket	pic	model	dropModel	bonus	growthbonus	growth	cantfenjie	cantSold
+int	String	int	int	int	int	int	int	int	int	int	String	String	String	String	int	int	int	byte	byte
+编号	名称	要求人物级别	物品等级	物品属性	物品品质	价格数量	货币类型	职业名称索引	绑定位置	背包类型	宝石孔	图片	模型	掉落模型	加成	加成规则	成长	是否能分解	是否能卖（0,不能；1.能）
+32000	weaponys1	1	1	5	1	1000	1	1	1	0	nosocket	sword_01	Editable-Mesg040						1
+32001	helmys1	1	1	1	1	1500	1	1	5	0	nosocket	zshead_04	Head-YS-01*Effect-YS-01A						1
+32002	shoulderys1	1	1	2	1	50	1	1	6	0	nosocket	qsshoulder_01	Shoulder-YS-01						1
+32003	armorys1	1	1	3	1	3000	1	1	7	0	nosocket	zsbody_03	Body-YS-01						1
+32004	cloakys1	1	1	4	1	50	1	1	8	0	nosocket	zsleg_01	Cape-YS-01						1
+32005	amuletys1	1	1	4	1	50	1	1	3	0	socket0	necklace_01							1
+32006	ringys1	1	1	4	1	50	1	1	2	0	socket0	ring_01							1
+32007	fashionys1	1	1	4	1	50	1	1	4	0	socket0	zsbody_11							1
+32008	weaponjx1	1	1	5	1	1000	1	1	1	0	socket0	dagger_01	Sword-JX-010						1
+32009	helmjx1	1	1	1	1	1500	1	1	5	0	socket1	zshead_05	Head-JX-010						1
+32010	shoulderjx1	1	1	2	1	50	1	1	6	0	socket1	qsshoulder_02	Shoulder-JX-010						1
+32011	armorjx1	1	1	3	1	3000	1	1	7	0	socket1	zsbody_04	Body-JX-010						1
+32012	cloakjx1	1	1	4	1	50	1	1	8	0	socket1	zsleg_02							1
+32013	amuletjx1	1	1	4	1	50	1	1	3	0	socket1	necklace_02							1
+32014	ringjx1	1	1	4	1	50	1	1	2	0	nosocket	ring_02							1
+32015	fashionjx1	1	1	4	1	50	1	1	4	0	nosocket	zsbody_10							1
+32016	weaponll1	1	1	5	1	1000	1	1	1	0	nosocket	ballwand_01							1
+32017	helmll1	1	1	1	1	1500	1	1	5	0	nosocket	qshead_01							1
+32018	shoulderll1	1	1	2	1	50	1	1	6	0	nosocket	qsshoulder_03							1
+32019	armorll1	1	1	3	1	3000	1	1	7	0	socket0	qsbody_01							1
+32020	cloakll1	1	1	4	1	50	1	1	8	0	socket0	qsleg_01							1
+32021	amuletll1	1	1	4	1	50	1	1	3	0	socket0	necklace_03							1
+32022	ringll1	1	1	4	1	50	1	1	2	0	socket0	ring_03							1
+32023	fashionll1	1	1	4	1	50	1	1	4	0	socket1	qsbody_10							1

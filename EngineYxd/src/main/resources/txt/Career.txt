@@ -1,0 +1,6 @@
+id	carrerName	faceIcon	careerModel	headModel	bodyModel	shoulderModel	capeModel	weaponModel	description	initSkillId	initEquipId	lvAir	lvInnerForce	lvAgility	lvControl	lvTenacity	lvDefence	initAir	initInnerForce	initAgility	initControl	initTenacity	initDefence	initHp	initMp
+int	String	String	String	String	String	String	String	String	String	String	String	int	int	int	int	int	int	int	int	int	int	int	int	int	int
+职业类型(编号)	职业名称	在游戏框的面部图标	职业模型	头部模型	身体模型	肩部模型	批风模型	武器模型	职业描述	初始技能id	初始装备id	升级后增加的气力	升级后增加的内力	升级后增加的灵敏	升级后增加的掌控	升级后增加的坚韧	升级后增加的防御	初始气力	初始内力	初始敏捷	初始掌控	初始坚韧	初始防御	初始HP	初始MP
+1	义士	Picture_JXyishi	YS_SelectRole	Head-YS-01*Effect-YS-01A	Body-YS-01	Shoulder-YS-01	Cape-YS-01	Editable-Mesh040	英雄皆儿女，江湖多豪杰。长枪提在手，纵马江湖行。枪出荡贼寇，枪回敌受首。此为义士，战斗不息，战意不绝。高防御，高血量，近战攻击。天下不平事，持枪以诛之。	1	32000*32001*32002*32003*32004													100	100
+2	剑侠	Picture_JXtouxiang	JX_SelectRole	Head-JX-010	Body-JX-010	Shoulder-JX-010		Sword-JX-010	英雄皆儿女，江湖多豪杰。灵剑吾伴身，纵横天下行。杀人拂衣去，藏身功与名。此为剑侠，御剑如神，来去如风。攻击高，出剑快，远近皆可战。灵剑不沾血，敌寇以消魂。		32008*32009*32010*32011*32012													100	100
+3	玲珑	Picture_JXlinglong	LL_SelectRole	Head-JX-011	Body-JX-011	Shoulder-JX-011		Sword-JX-011	英雄皆儿女，江湖多豪杰。虽是女儿身，巾帼不须眉。以气御物攻，其武若仙姿。伤敌数仗外，舞停人已残。此为玲珑，御物杀人，数仗敌伤。远攻击，高输出。舞起迷人神，舞去伤人魂。		32008*32009*32010*32011*32013													100	100

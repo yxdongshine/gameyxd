@@ -1,0 +1,10 @@
+id	name	description	configureMuisc	functionPic	headPic	CPID	bindTaskIds	bindFuns	hideFuns	campId	MapId
+int	String	String	String	String	String	int	String	String	String	int	int
+NPCId	NPC名字	NPC描述	NPC配音	功能图标	NPC头像	客户端预设ID	绑定任务集合	绑定功能集合	隐藏功能	阵营	地图ID
+21001	民兵	为民除害，保家卫国		Icon_shibing_1	Picture_shibing	12002	70001				5
+21003	民兵	为民除害，保家卫国		Icon_shibing_1	Picture_shibing	12003	70002				5
+21004	村长	新的一天新气象，你有什么需要帮忙的么？		Icon_cunzhang_1	Picture_npc_010	12010	70003				5
+21005	里正	老夫看你骨骼惊奇，派发点任务给你做如何？		Icon_lizheng_1	Picture_npc_011	12011	70006				5
+21006	刘弘文/私塾先生	刘弘武这个丧尽天良的弟弟，此生我一定要手刃了他。		Icon_liuhongwen_1	Picture_npc_012	12012	70005				5
+21007	若雨	你有哪里不舒服啊？需要我帮你看看吗？		Icon_ruoyu_1	Picture_npc_013	12013	70004				5
+21008	民兵	为民除害，保家卫国		Icon_shibing_1	Picture_shibing	12002	70007				5

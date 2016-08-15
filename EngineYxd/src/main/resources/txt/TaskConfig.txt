@@ -1,0 +1,4 @@
+maxTaskNumber	initTaskId
+int	int
+最多任务数	初始化任务编号
+6	1

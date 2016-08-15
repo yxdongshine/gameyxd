@@ -1,0 +1,4 @@
+index	id	prefix	suffix	min	max	monstermax	name	special	death	weaponscale	effect
+int	String 	String	String	int	int	int	String	String	int	String	String
+编号	编号	前缀	后缀	最小值	最大值	未知	名称	特殊	未知	未知	使用 影响
+0	str	String_prefix_str	String_suffix_str	0	100000	10000000	String_Attr_str_name	0	0	0*0*0*0	2*0

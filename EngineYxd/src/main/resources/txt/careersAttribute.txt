@@ -1,0 +1,4 @@
+id	index	name	initial	para1	para2	para3
+int	int	String	int	int	int	int
+职业索引	属性编号	name	初始化值	参数1	参数2	参数3
+0	0	力量	0	1	0	0

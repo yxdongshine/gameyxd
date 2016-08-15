@@ -1,0 +1,8 @@
+id	name	equipmentId
+int	String	String
+编号	名称	装备级别等表编号
+5	HonorAmuletAmaintlv40	1
+1	amuletAss2lv10	2
+2	armorAss0lv1	1
+3	axeBar3lv15	2
+4	shoulderAss0	1*2

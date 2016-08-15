@@ -1,0 +1,5 @@
+id	type	currency	item	count	ratio	valueh	percenth	valuem	percentm	effectiveTime	useCdTime
+int	int	int	int	int	int	int	int	int	int	int	int
+编号	类型	货币类型	物品编号	数量	概率值	血值	血值百分比	魔值	魔值百分比	有效时间	药瓶使用cd时间
+1001	2				1000	100	50	100	100	30	3
+1002	2				1000	500	60	500	60	60	3

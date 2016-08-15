@@ -1,0 +1,8 @@
+id	color	name	value	standard	min	max
+int	String	String	int	int	int	int
+编号	品质颜色	品质名称	品质等级	装备初始分数	装备分数最小值	装备分数最大值
+0	0	String_quality_0	0	0	0	0
+1	1	String_quality_1	1	5	1	5
+2	2	String_quality_2	2	55	51	100
+3	3	String_quality_3	3	101	106	160
+4	4	String_quality_4	4	168	161	240

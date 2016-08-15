@@ -1,0 +1,4 @@
+teamNo	teamInviteTime	minNumber	maxNumber	maxInviteNumber	laederPic	voteTime
+int	int	int	int	int	int	int
+队伍配置编号	邀请cd时间	队伍最小成员数	队伍最大成员数	最大申请人数量	队长图标	投票有效时间数
+1	3	2	4	4	10000008	1

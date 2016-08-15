@@ -1,0 +1,4 @@
+id	equipQualityId	EquipClassId
+int	String	String
+编号	装备质量编号	装备类别编号
+0	0*1*2*3*4	0*1*2*3*4

@@ -1,0 +1,6 @@
+id	careerId	talentName	talentRate	addAir	addInnerForce	addAgility	addControl	addTenacity	reduceAir	reduceInnerForce	reduceAgility	reduceControl	reduceTenacity
+int	int	String	int	int	int	int	int	int	int	int	int	int	int
+资质编号	职业类型	资质名称	资质出现机率	增加的气力	增加的内力	增加的敏捷	增加的掌控	增加的坚韧	减少的气力	减少内力	减少敏捷	减少掌控	减少坚韧
+1	1	天下无双	100	10	10	0	0	0	5		-1		
+2	2	天下无双55	100	10	10	0	0	0	5		-1		
+1	3	天下无双	100	10	10	0	0	0	5		-1		

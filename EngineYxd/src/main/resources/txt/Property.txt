@@ -1,0 +1,7 @@
+id	name	description	pic	buyPrice	solePrice	currency	bind	quality	level	typeID	cantSold	dropModel	folderableNum	toolClass	function	itemType	useatonce	useWithRemove	fullBottle
+int	String	String	String	int	int	int	byte	int	int	byte	byte	String	int	int	String	int	byte	byte	int
+道具编号	名称	描述	图片id	购入价格	卖出价格	金钱类型(0金币，1钻石)	绑定类型(获取时绑定0、装备后绑定1和不绑定2  ,3种)	品质(白色0，绿色1，蓝色2，金色3，紫色4，橙色5，红色6)	级别	分类ID(为任务道具0和非任务道具1, 2类)	是否能卖（0,不能；1.能）	掉在地上显示的模型	可折叠数	道具类型（0 装备，1 普通，2特殊）	触发索引	物品类型	是否只能用1次	用时是否删除	药瓶补满价格
+30001	小药瓶	吃药不能停	icon_1053	0		1	0		1	1	0		10	2	1001	4	1	1	100
+30002	中药瓶	中级药瓶	icon_1053	1		1	0		2	1	0		20	2	1002	4			
+31001	草药	草药	icon_1118	0	0	0	0		1	0	0		10	2					
+31002	忘魂草	忘魂草	icon_1119	0	0	0	0		1	0	0		10	2					

@@ -1,0 +1,13 @@
+id	name	modelPath
+int	String	String
+技能编号	模型名字	模型路径
+101	Config_TEST_S_1	Configs/SkillConfig/SkillConfig/
+102	Config_TEST_S_2	Configs/SkillConfig/SkillConfig/
+103	Config_TEST_S_3	Configs/SkillConfig/SkillConfig/
+104	Config_TEST_S_4	Configs/SkillConfig/SkillConfig/
+105	Config_TEST_S_5	Configs/SkillConfig/SkillConfig/
+106	Config_TEST_S_6	Configs/SkillConfig/SkillConfig/
+107	Config_TEST_S_7	Configs/SkillConfig/SkillConfig/
+108	Config_TEST_S_8	Configs/SkillConfig/SkillConfig/
+109	Config_TEST_S_9	Configs/SkillConfig/SkillConfig/
+110	Config_TEST_S_10	Configs/SkillConfig/SkillConfig/

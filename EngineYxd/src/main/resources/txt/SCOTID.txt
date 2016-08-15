@@ -1,0 +1,19 @@
+SCOTID	SCOClassTypeStr	sceneName	mapType	transferType
+int	String	String	int	int
+场景对象模板ID	场景类名	unity对应名	EnumMapType 场景类型	挡片Loading图 选择 0-默认 5-主城 6-新手村 1-春 2-夏 3-秋 4-冬
+0	SCO_scene_start	xsc_kcdh	0	0
+1	SCO_scene_login	xsc_denglu	1	0
+2	SCO_scene_selectRole	dl_xr	2	0
+3	SCO_scene_birthplace	xinshoucun	4	6
+4	SCO_scene_d2d1	d2d1	4	6
+201401	SCO_scene_x1n1	x1d1	8	2
+202401	SCO_scene_x2d1	x2d1	8	2
+204501	SCO_scene_x4n1	x4n1	8	2
+301401	SCO_scene_q1d1	q1d1	8	3
+302501	SCO_scene_q2n1	q2n1	8	3
+303401	SCO_scene_q3d1	q3d1	8	3
+401401	SCO_scene_d1d1	d1d1	8	4
+402401	SCO_scene_d2d1	d2d1	8	4
+403401	SCO_scene_d3d1	d3d1	8	4
+401402	SCO_scene_d1d2	d1d2	8	4
+500000	SCO_scene_testskill	testskill	0	0

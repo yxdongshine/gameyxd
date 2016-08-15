@@ -64,13 +64,13 @@ public class LoginServerResponseTask extends ServerLoginAdapter implements GameM
 		Player player = null;
 		// 系统判断输入的用户名和密码是否匹配，否：下方显示信息【用户名或者密码错误
 		if (result > 0) {
-			List<Player> playerList = entityDao.findByProperty(Player.class, "accountName", login.getAccountName());
+			List<Player> playerList = entityDAOInterface.findByProperty(Player.class, "accountName", login.getAccountName());
 			if (playerList.size() > 0) {
 				player = playerList.get(0);
 				if (player.getAccountName().equals(login.getAccountName()) && player.getPassword().equals(login.getPassword())) {
 					
 					player.setLastServerId(login.getServerId());
-					entityDao.updateFinal(player);
+					entityDAOInterface.updateFinal(player);
 					
 				} else {
 					result = 0;

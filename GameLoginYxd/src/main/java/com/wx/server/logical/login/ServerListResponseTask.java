@@ -41,7 +41,7 @@ public class ServerListResponseTask extends ServerLoginAdapter implements GameMe
 		ServerListData sld = null;// 最近登录或者最新的服务器
 		// 判断是否已经存在帐号
 		if (pServerListRequest.getAccountName() != null && !pServerListRequest.getAccountName().equals("")) {
-			List<Player> playerList = entityDao.findByProperty(Player.class, "accountName", pServerListRequest.getAccountName());
+			List<Player> playerList = entityDAOInterface.findByProperty(Player.class, "accountName", pServerListRequest.getAccountName());
 			if (playerList.size() > 0) {
 				Player p = playerList.get(0);
 				ServerList slServer = LoginManage.serverListMap.get("" + p.getLastServerId());

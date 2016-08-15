@@ -7,6 +7,7 @@ import com.loncent.protocol.stauscode.StatusCode.StatusCodeResponse;
 import com.lx.server.mina.session.IConnect;
 import com.wx.server.container.GlobalContainer;
 import com.wx.server.dbdao.EntityDAO;
+import com.wx.server.dbdao.EntityDAOInterface;
 import com.wx.server.utils.LogUtils;
 
 /**
@@ -33,8 +34,8 @@ public class ServerLoginAdapter {
 	
 	protected LogUtils log = LogUtils.getLog(this.getClass());
 	
-	@Autowired(required=false)
-	public EntityDAO entityDao;
+	@Autowired(required=true)
+	protected EntityDAOInterface entityDAOInterface;
 	
 	@Autowired
 	protected GlobalContainer globalContainer;

@@ -45,12 +45,12 @@ public class ModifyPassWordResponseTask extends ServerLoginAdapter implements Ga
 		Player player = null;
 		// 系统判断输入的用户名和密码是否匹配，否：下方显示信息【用户名或者密码错误
 		if (result > 0) {
-			List<Player> playerList = entityDao.findByProperty(Player.class, "accountName", mswr.getAccountName());
+			List<Player> playerList = entityDAOInterface.findByProperty(Player.class, "accountName", mswr.getAccountName());
 			if (playerList.size() > 0) {
 				player = playerList.get(0);
 				if (player.getAccountName().equals(mswr.getAccountName()) && player.getPassword().equals(mswr.getOldPassword())) {
 					player.setPassword(mswr.getNewPassword());
-					entityDao.updateFinal(player);
+					entityDAOInterface.updateFinal(player);
 				} else {
 					sendPopUpTip(session, StatusCode.STATUS_4);
 					result = 0;

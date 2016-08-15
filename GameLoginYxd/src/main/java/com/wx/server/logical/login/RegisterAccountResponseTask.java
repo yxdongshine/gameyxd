@@ -11,6 +11,7 @@ import com.loncent.protocol.login.LoginServer.RegisterAccountRequest;
 import com.loncent.protocol.login.LoginServer.RegisterAccountResponse;
 import com.lx.server.mina.session.IConnect;
 import com.wx.server.dbdao.EntityDAO;
+import com.wx.server.dbdao.EntityDAOInterface;
 import com.wx.server.domain.Player;
 import com.wx.server.logical.GameMessage;
 import com.wx.server.logical.ServerLoginAdapter;
@@ -35,8 +36,8 @@ import com.wx.server.utils.ToolUtils;
 @Head(CmdType.C_L_REGISTER_ACCOUNT_REQUEST_VALUE)
 public class RegisterAccountResponseTask extends ServerLoginAdapter implements GameMessage<MinaMessage> {
 	
-	@Autowired(required=false)
-	private EntityDAO entityDao;
+	@Autowired(required=true)
+	private EntityDAOInterface entityDAOInterface;
 	
 	@Override
 	public void doMessage(MinaMessage msg, IConnect session) throws Exception {
@@ -51,7 +52,7 @@ public class RegisterAccountResponseTask extends ServerLoginAdapter implements G
 		}
 		
 		if (result == 1) {
-			List<Player> playerList = entityDao.findByProperty(Player.class, "accountName", register.getAccountName());
+			List<Player> playerList = entityDAOInterface.findByProperty(Player.class, "accountName", register.getAccountName());
 			if (playerList.size() > 0) {
 				this.sendPopUpTip(session, StatusCode.STATUS_3);
 				result = 0;
@@ -105,7 +106,7 @@ public class RegisterAccountResponseTask extends ServerLoginAdapter implements G
 		player.setPhoneNum(register.getPhoneNum());
 		player.setPhoneType(register.getPhoneType());
 		player.setVersion(player.getVersion());
-		entityDao.save(player);
+		entityDAOInterface.save(player);
 		return player;
 	}
 	

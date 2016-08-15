@@ -21,6 +21,7 @@ import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
 import com.wx.server.beanfactory.SpringBeanFactory;
 import com.wx.server.dbdao.EntityDAO;
+import com.wx.server.dbdao.EntityDAOInterface;
 import com.wx.server.domain.AreaList;
 import com.wx.server.domain.ServerList;
 import com.wx.server.httphandler.decoder.DecoderRequest;
@@ -51,7 +52,7 @@ public class UpdateServerListHandler implements HttpHandler {
 	private String cmdV[] = { "add", "update", "del" };
 	
 	@Autowired(required=true)
-	private com.wx.server.dbdao.EntityDAOInterface dao;
+	private EntityDAOInterface dao;
 	
 	@Override
 	public void handle(HttpExchange he) throws IOException {

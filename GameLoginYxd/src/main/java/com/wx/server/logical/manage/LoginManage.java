@@ -9,6 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import com.wx.server.dbdao.EntityDAO;
+import com.wx.server.dbdao.EntityDAOInterface;
 import com.wx.server.domain.AreaList;
 import com.wx.server.domain.ServerList;
 import com.wx.server.obj.LoginServerList;
@@ -34,7 +35,7 @@ public class LoginManage implements IManage {
 	public static ConcurrentHashMap<String, ServerList> serverListMap = new ConcurrentHashMap<String, ServerList>();
 	
 	@Autowired(required=true)
-	private com.wx.server.dbdao.EntityDAOInterface entityDAOInterface;
+	private EntityDAOInterface entityDAOInterface;
 	
 	@Override
 	public void load() {

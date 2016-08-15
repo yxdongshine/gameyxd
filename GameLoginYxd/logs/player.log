@@ -1122,3 +1122,230 @@ Using DataSource [{
 ======����˿�:1001�ɹ�======
 端口::2586
 结束::2586
+266772处理时间超过1秒的是:::11b
+9558处理时间超过1秒的是:::11b
+find by property name failed
+java.lang.ClassCastException: org.springframework.orm.hibernate4.SessionHolder cannot be cast to org.springframework.orm.hibernate3.SessionHolder
+	at org.springframework.orm.hibernate3.SessionFactoryUtils.doGetSession(SessionFactoryUtils.java:289)
+	at org.springframework.orm.hibernate3.SessionFactoryUtils.getSession(SessionFactoryUtils.java:235)
+	at org.springframework.orm.hibernate3.support.HibernateDaoSupport.getSession(HibernateDaoSupport.java:168)
+	at org.springframework.orm.hibernate3.support.HibernateDaoSupport.getSession(HibernateDaoSupport.java:143)
+	at com.wx.server.dbdao.EntityDAO.findByProperty(EntityDAO.java:199)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:317)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:183)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:96)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:260)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:94)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:204)
+	at com.sun.proxy.$Proxy14.findByProperty(Unknown Source)
+	at com.wx.server.logical.login.RegisterAccountResponseTask.doMessage(RegisterAccountResponseTask.java:55)
+	at com.wx.server.logical.login.RegisterAccountResponseTask.doMessage(RegisterAccountResponseTask.java:1)
+	at com.wx.server.control.LoginServerControl.invoke(LoginServerControl.java:39)
+	at com.wx.server.control.LoginServerControl.invoke(LoginServerControl.java:1)
+	at com.lx.server.mina.handler.XMLNetApdapterLisener.doProxy(XMLNetApdapterLisener.java:20)
+	at com.lx.server.mina.handler.MinaHandlerAdapter.messageReceived(MinaHandlerAdapter.java:117)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:854)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:542)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1300(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:943)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:74)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:63)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:770)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:762)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:704)
+	at java.lang.Thread.run(Thread.java:745)
+101:::错误消息:::java.lang.ClassCastException: org.springframework.orm.hibernate4.SessionHolder cannot be cast to org.springframework.orm.hibernate3.SessionHolder
+java.lang.ClassCastException: org.springframework.orm.hibernate4.SessionHolder cannot be cast to org.springframework.orm.hibernate3.SessionHolder
+	at org.springframework.orm.hibernate3.SessionFactoryUtils.doGetSession(SessionFactoryUtils.java:289)
+	at org.springframework.orm.hibernate3.SessionFactoryUtils.getSession(SessionFactoryUtils.java:235)
+	at org.springframework.orm.hibernate3.support.HibernateDaoSupport.getSession(HibernateDaoSupport.java:168)
+	at org.springframework.orm.hibernate3.support.HibernateDaoSupport.getSession(HibernateDaoSupport.java:143)
+	at com.wx.server.dbdao.EntityDAO.findByProperty(EntityDAO.java:199)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:317)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:183)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:96)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:260)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:94)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:204)
+	at com.sun.proxy.$Proxy14.findByProperty(Unknown Source)
+	at com.wx.server.logical.login.RegisterAccountResponseTask.doMessage(RegisterAccountResponseTask.java:55)
+	at com.wx.server.logical.login.RegisterAccountResponseTask.doMessage(RegisterAccountResponseTask.java:1)
+	at com.wx.server.control.LoginServerControl.invoke(LoginServerControl.java:39)
+	at com.wx.server.control.LoginServerControl.invoke(LoginServerControl.java:1)
+	at com.lx.server.mina.handler.XMLNetApdapterLisener.doProxy(XMLNetApdapterLisener.java:20)
+	at com.lx.server.mina.handler.MinaHandlerAdapter.messageReceived(MinaHandlerAdapter.java:117)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:854)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:542)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1300(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:943)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:74)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:63)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:770)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:762)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:704)
+	at java.lang.Thread.run(Thread.java:745)
+16452处理时间超过1秒的是:::101
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6ea1ade8: startup date [Mon Aug 15 17:54:00 CST 2016]; root of context hierarchy
+Loading XML bean definitions from class path resource [beans.xml]
+Overriding bean definition for bean 'entityDAO': replacing [Generic bean: class [com.wx.server.dbdao.EntityDAO]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [F:\mye10\rotegamegitcode\gameyxd\GameLoginYxd\target\classes\com\wx\server\dbdao\EntityDAO.class]] with [Generic bean: class [com.wx.server.dbdao.EntityDAO]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [beans.xml]]
+Loading properties file from URL [file:F:/mye10/rotegamegitcode/gameyxd/GameLoginYxd/src/main/resources/config/jdbc.properties]
+Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@2f54745e: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,globalContainer,loginServerControl,entityDAO,serverCodeModel,statusCodeModel,excelManage,gameHttpServer,checkTokenResponseTask,onlineCountResponseTask,findBackPasswordResponseTask,loginServerResponseTask,modifyPassWordResponseTask,registerAccountResponseTask,serverListResponseTask,verifyMailResponseTask,loginManage,serverLoginAdapter,minaServer,serverListener,commondClassLoader,loaderManage,jsonObjectMapper,org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor#0,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,dataSource,sf,txManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+{dataSource-1} inited
+HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+HHH000412: Hibernate Core {4.1.7.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+HHH000228: Running hbm2ddl schema update
+HHH000102: Fetching database metadata
+HHH000396: Updating schema
+HHH000261: Table found: loncent_login_server.area_list
+HHH000037: Columns: [id, areaname, status]
+HHH000108: Foreign keys: []
+HHH000126: Indexes: [primary]
+HHH000261: Table found: loncent_login_server.loncent_player
+HHH000037: Columns: [phonetype, id, accountname, channleid, imei, appid, phonenum, password, lastserverid, version, mailaddress]
+HHH000108: Foreign keys: []
+HHH000126: Indexes: [primary]
+HHH000261: Table found: loncent_login_server.server_list
+HHH000037: Columns: [port, id, maxplayerlimit, sortindex, status, isnewserver, areaid, servername, currentappid, ip]
+HHH000108: Foreign keys: []
+HHH000126: Indexes: [area_id, primary]
+HHH000232: Schema update complete
+Using DataSource [{
+	CreateTime:"2016-08-15 17:54:01",
+	ActiveCount:0,
+	PoolingCount:1,
+	CreateCount:1,
+	DestroyCount:0,
+	CloseCount:2,
+	ConnectCount:2,
+	Connections:[
+		{ID:42120482, ConnectTime:"2016-08-15 17:54:01", UseCount:2, LastActiveTime:"2016-08-15 17:54:02"}
+	]
+}
+
+[
+	{
+	ID:42120482, 
+	poolStatements:[
+		]
+	}
+]] of Hibernate SessionFactory for HibernateTransactionManager
+服务器ip:192.168.40.47:port:1001:serverId1
+======Э���ʼ��======
+======Э���ʼ���ɹ�======
+======����˿�:1001�ɹ�======
+端口::2586
+结束::2586
+3960处理时间超过1秒的是:::11b
+save failedcom.wx.server.domain.Player@62f10514
+java.lang.ClassCastException: org.springframework.orm.hibernate4.SessionHolder cannot be cast to org.springframework.orm.hibernate3.SessionHolder
+	at org.springframework.orm.hibernate3.SessionFactoryUtils.doGetSession(SessionFactoryUtils.java:289)
+	at org.springframework.orm.hibernate3.SessionFactoryUtils.getSession(SessionFactoryUtils.java:235)
+	at org.springframework.orm.hibernate3.HibernateTemplate.getSession(HibernateTemplate.java:457)
+	at org.springframework.orm.hibernate3.HibernateTemplate.doExecute(HibernateTemplate.java:392)
+	at org.springframework.orm.hibernate3.HibernateTemplate.executeWithNativeSession(HibernateTemplate.java:374)
+	at org.springframework.orm.hibernate3.HibernateTemplate.save(HibernateTemplate.java:683)
+	at com.wx.server.dbdao.EntityDAO.save(EntityDAO.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:317)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:183)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:96)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:260)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:94)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:204)
+	at com.sun.proxy.$Proxy14.save(Unknown Source)
+	at com.wx.server.logical.login.RegisterAccountResponseTask.createPlayer(RegisterAccountResponseTask.java:109)
+	at com.wx.server.logical.login.RegisterAccountResponseTask.doMessage(RegisterAccountResponseTask.java:65)
+	at com.wx.server.logical.login.RegisterAccountResponseTask.doMessage(RegisterAccountResponseTask.java:1)
+	at com.wx.server.control.LoginServerControl.invoke(LoginServerControl.java:39)
+	at com.wx.server.control.LoginServerControl.invoke(LoginServerControl.java:1)
+	at com.lx.server.mina.handler.XMLNetApdapterLisener.doProxy(XMLNetApdapterLisener.java:20)
+	at com.lx.server.mina.handler.MinaHandlerAdapter.messageReceived(MinaHandlerAdapter.java:117)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:854)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:542)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1300(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:943)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:74)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:63)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:770)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:762)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:704)
+	at java.lang.Thread.run(Thread.java:745)
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6ea1ade8: startup date [Mon Aug 15 18:00:43 CST 2016]; root of context hierarchy
+Loading XML bean definitions from class path resource [beans.xml]
+Overriding bean definition for bean 'entityDAO': replacing [Generic bean: class [com.wx.server.dbdao.EntityDAO]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [F:\mye10\rotegamegitcode\gameyxd\GameLoginYxd\target\classes\com\wx\server\dbdao\EntityDAO.class]] with [Generic bean: class [com.wx.server.dbdao.EntityDAO]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [beans.xml]]
+Loading properties file from URL [file:F:/mye10/rotegamegitcode/gameyxd/GameLoginYxd/src/main/resources/config/jdbc.properties]
+Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@2f54745e: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,globalContainer,loginServerControl,entityDAO,serverCodeModel,statusCodeModel,excelManage,gameHttpServer,checkTokenResponseTask,onlineCountResponseTask,findBackPasswordResponseTask,loginServerResponseTask,modifyPassWordResponseTask,registerAccountResponseTask,serverListResponseTask,verifyMailResponseTask,loginManage,serverLoginAdapter,minaServer,serverListener,commondClassLoader,loaderManage,jsonObjectMapper,org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor#0,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,dataSource,sf,txManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+{dataSource-1} inited
+HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+HHH000412: Hibernate Core {4.1.7.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+HHH000228: Running hbm2ddl schema update
+HHH000102: Fetching database metadata
+HHH000396: Updating schema
+HHH000261: Table found: loncent_login_server.area_list
+HHH000037: Columns: [id, areaname, status]
+HHH000108: Foreign keys: []
+HHH000126: Indexes: [primary]
+HHH000261: Table found: loncent_login_server.loncent_player
+HHH000037: Columns: [phonetype, id, accountname, channleid, imei, appid, phonenum, password, lastserverid, version, mailaddress]
+HHH000108: Foreign keys: []
+HHH000126: Indexes: [primary]
+HHH000261: Table found: loncent_login_server.server_list
+HHH000037: Columns: [port, id, maxplayerlimit, sortindex, status, isnewserver, areaid, servername, currentappid, ip]
+HHH000108: Foreign keys: []
+HHH000126: Indexes: [area_id, primary]
+HHH000232: Schema update complete
+Using DataSource [{
+	CreateTime:"2016-08-15 18:00:44",
+	ActiveCount:0,
+	PoolingCount:1,
+	CreateCount:1,
+	DestroyCount:0,
+	CloseCount:2,
+	ConnectCount:2,
+	Connections:[
+		{ID:81183573, ConnectTime:"2016-08-15 18:00:44", UseCount:2, LastActiveTime:"2016-08-15 18:00:45"}
+	]
+}
+
+[
+	{
+	ID:81183573, 
+	poolStatements:[
+		]
+	}
+]] of Hibernate SessionFactory for HibernateTransactionManager
+服务器ip:192.168.40.47:port:1001:serverId1
+======Э���ʼ��======
+======Э���ʼ���ɹ�======
+======����˿�:1001�ɹ�======
+端口::2586
+结束::2586
+1972处理时间超过1秒的是:::11b
+15091处理时间超过1秒的是:::101

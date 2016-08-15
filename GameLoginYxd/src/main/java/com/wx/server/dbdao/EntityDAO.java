@@ -19,7 +19,7 @@ public class EntityDAO extends DbDao implements Runnable,EntityDAOInterface {
 	
 	private LogUtils log = LogUtils.getLog(EntityDAO.class);
 	
-	/** 更新数据库线程池 **/
+	/** 更新数据库线程池**/
 	private Map<Long, DbEntity> updateDbList = new ConcurrentHashMap<Long, DbEntity>();
 	
 	/** 删除数据容器 **/
@@ -32,7 +32,7 @@ public class EntityDAO extends DbDao implements Runnable,EntityDAOInterface {
 		log.debug("saving tbActor instance");
 		long id = 0;
 		try {
-			id = (Long) getHibernateTemplate().save(transientInstance);
+			id = (Long)  sessionFactory.getCurrentSession().save(transientInstance);
 			log.debug("save successful");
 		} catch (RuntimeException re) {
 			re.printStackTrace();
@@ -85,7 +85,7 @@ public class EntityDAO extends DbDao implements Runnable,EntityDAOInterface {
 				// if (!isInDeleteDbList(db)){
 				// deleteDbList.put(db.getId(), db);
 				// }
-				getHibernateTemplate().delete(db);
+				 sessionFactory.getCurrentSession().delete(db);
 			}
 			
 			// getHibernateTemplate().delete(persistentInstance);
@@ -104,7 +104,7 @@ public class EntityDAO extends DbDao implements Runnable,EntityDAOInterface {
 	public void saveOrUpdate(DbEntity instance) {
 		log.debug("attaching dirty tbActor instance");
 		try {
-			getHibernateTemplate().saveOrUpdate(instance);
+			 sessionFactory.getCurrentSession().saveOrUpdate(instance);
 			log.debug("attach successful");
 		} catch (RuntimeException re) {
 			log.error("attach failed" + instance, re);
@@ -126,7 +126,7 @@ public class EntityDAO extends DbDao implements Runnable,EntityDAOInterface {
 			
 			if (db != null) {
 				// entityDbList.add(instance);
-				getHibernateTemplate().update(db);
+				 sessionFactory.getCurrentSession().update(db);
 				// if (!isInUpdateDbList(db)){
 				// updateDbList.put(db.getId(), db);
 				// }
@@ -167,7 +167,7 @@ public class EntityDAO extends DbDao implements Runnable,EntityDAOInterface {
 	public <T> T findById(Class<T> entity, long id) {
 		log.debug("finding instance with id: " + id);
 		try {
-			return getHibernateTemplate().get(entity, Long.valueOf(id));
+			return  (T) sessionFactory.getCurrentSession().get(entity, Long.valueOf(id));
 		} catch (RuntimeException re) {
 			log.error("find by property name failed", re);
 			throw re;
@@ -181,14 +181,17 @@ public class EntityDAO extends DbDao implements Runnable,EntityDAOInterface {
 		log.debug("finding all from " + c.getName());
 		try {
 			String queryString = "from " + c.getName();
-			return (List<T>) getHibernateTemplate().find(queryString);
+			return (List<T>)  sessionFactory.getCurrentSession().createQuery(queryString).list();
 		} catch (RuntimeException re) {
 			log.error("find all failed", re);
 			re.printStackTrace();
 			throw re;
 		}
 	}
-	
+	/**
+	 * this.getSession()
+	 * 
+	 */
 	@Override
 	@SuppressWarnings("unchecked")
 	@Transactional(propagation = Propagation.REQUIRED, readOnly = true)
@@ -196,7 +199,7 @@ public class EntityDAO extends DbDao implements Runnable,EntityDAOInterface {
 		log.debug("finding instance with property: " + propertyName + ", value: " + value);
 		try {
 			String queryString = "from " + c.getName() + " as model where model." + propertyName + "= :"+propertyName;
-			Query queryObject = this.getSession().createQuery(queryString);
+			Query queryObject = sessionFactory.getCurrentSession().createQuery(queryString);
 
 			if (value != null) {
 				//for (int i = 0; i < values.length; i++) {
@@ -228,7 +231,7 @@ public class EntityDAO extends DbDao implements Runnable,EntityDAOInterface {
 				}
 			}
 			
-			Query queryObject = this.getSession().createQuery(queryString);
+			Query queryObject = sessionFactory.getCurrentSession().createQuery(queryString);
 			if (value != null) {
 				for (int i = 0; i < value.length; i++) {
 					queryObject.setParameter(propertyName[i], value[i]);
@@ -306,9 +309,9 @@ public class EntityDAO extends DbDao implements Runnable,EntityDAOInterface {
 	 * @param list
 	 */
 	public <E> void deleteAll(List<E> list) {
-		if (!list.isEmpty() && list != null) {
-			getHibernateTemplate().deleteAll(list);
-		}
+		/*if (!list.isEmpty() && list != null) {
+			 sessionFactory.getCurrentSession().(list);
+		}*/
 		// Session ss = getSession();
 		// Transaction tt = ss.beginTransaction();
 		// for (E obj : list){

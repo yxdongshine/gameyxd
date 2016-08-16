@@ -1,0 +1,612 @@
+2016-08-16 15:41:16 [ INFO] ClassPathXmlApplicationContext.prepareRefresh(AbstractApplicationContext.java:510) - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7bf90a55: startup date [Tue Aug 16 15:41:16 CST 2016]; root of context hierarchy
+2016-08-16 15:41:16 [ INFO] XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315) - Loading XML bean definitions from class path resource [beans.xml]
+2016-08-16 15:41:45 [ INFO] ClassPathXmlApplicationContext.prepareRefresh(AbstractApplicationContext.java:510) - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@40dcdc8b: startup date [Tue Aug 16 15:41:45 CST 2016]; root of context hierarchy
+2016-08-16 15:41:45 [ INFO] XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315) - Loading XML bean definitions from class path resource [beans.xml]
+2016-08-16 15:44:29 [ INFO] ClassPathXmlApplicationContext.prepareRefresh(AbstractApplicationContext.java:510) - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3d2a07c9: startup date [Tue Aug 16 15:44:29 CST 2016]; root of context hierarchy
+2016-08-16 15:44:29 [ INFO] XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315) - Loading XML bean definitions from class path resource [beans.xml]
+2016-08-16 15:49:18 [ INFO] ClassPathXmlApplicationContext.prepareRefresh(AbstractApplicationContext.java:510) - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4d50c296: startup date [Tue Aug 16 15:49:18 CST 2016]; root of context hierarchy
+2016-08-16 15:49:18 [ INFO] XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315) - Loading XML bean definitions from class path resource [beans.xml]
+2016-08-16 15:52:16 [ INFO] ClassPathXmlApplicationContext.prepareRefresh(AbstractApplicationContext.java:510) - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@55456c99: startup date [Tue Aug 16 15:52:16 CST 2016]; root of context hierarchy
+2016-08-16 15:52:16 [ INFO] XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315) - Loading XML bean definitions from class path resource [beans.xml]
+2016-08-16 15:53:53 [ INFO] ClassPathXmlApplicationContext.prepareRefresh(AbstractApplicationContext.java:510) - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@779b68bb: startup date [Tue Aug 16 15:53:53 CST 2016]; root of context hierarchy
+2016-08-16 15:53:53 [ INFO] XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315) - Loading XML bean definitions from class path resource [beans.xml]
+2016-08-16 15:59:11 [ INFO] ClassPathXmlApplicationContext.prepareRefresh(AbstractApplicationContext.java:510) - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7bf90a55: startup date [Tue Aug 16 15:59:11 CST 2016]; root of context hierarchy
+2016-08-16 15:59:11 [ INFO] XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315) - Loading XML bean definitions from class path resource [beans.xml]
+2016-08-16 17:04:15 [ INFO] ClassPathXmlApplicationContext.prepareRefresh(AbstractApplicationContext.java:510) - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7bf90a55: startup date [Tue Aug 16 17:04:15 CST 2016]; root of context hierarchy
+2016-08-16 17:04:15 [ INFO] XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315) - Loading XML bean definitions from class path resource [beans.xml]
+2016-08-16 17:04:15 [ INFO] PropertyPlaceholderConfigurer.loadProperties(PropertiesLoaderSupport.java:172) - Loading properties file from URL [file:F:/mye10/rotegamegitcode/gameyxd/WorldServerYxd/src/main/resources/config/jdbc.properties]
+2016-08-16 17:04:15 [ INFO] DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:596) - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@65694399: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,gateWorldPlayerExitResponseTask,checkTokenResponseTask,createRoleResponseTask,delRoleResponseTask,enterGameResponseTask,loginGameServerResponseTask,resetTalentResponseTask,gameWorldUpdatePlayerResponseTask,loginManage,serverPlayerManage,innerServerControl,minaClientControl,innerServer,innerServerListener,minaClientListener,minaClient,initializeManage,txtModelManage,attributeDescModel,attributeModel,bagConfigMode,buffModel,buffTypeModel,careerModel,careerTalentModel,equipmentConfigMode,equipmentLevelGrouthMode,equipmentPropertyModel,equipQualityMode,fuBenTemplateModel,functionMode,mainattributeMode,monsterActionModel,monsterGroupModel,monsterModel,npcConfigPojoModel,propertyModel,roleInitModel,roleLevelUpModel,skillTemplateModel,skillUnitModel,socketMode,taskConfigModel,taskModel,teamConfigModel,bagConfigLoad,itemManage,itemConfigLoad,registerResponseTask,requestTaskAdapter,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,dataSource,sf,entityDAO,logDAO,txManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+2016-08-16 17:04:16 [ERROR] DruidDataSource.init(DruidDataSource.java:643) - init datasource error, url: jdbc:mysql://192.168.40.228:3306/loncent_game_server?useUnicode=true&amp;characterEncoding=UTF-8"
+java.sql.SQLException: Access denied for user 'root'@'192.168.40.47' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1074)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4074)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4006)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:919)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1694)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1244)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2397)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2430)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2215)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:813)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:399)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:334)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:148)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1377)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1431)
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:632)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeCustomInitMethod(AbstractAutowireCapableBeanFactory.java:1614)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1485)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:461)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:295)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:292)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:323)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:107)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1393)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1134)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:461)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:295)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:292)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:323)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:107)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1393)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1134)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:461)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:295)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:292)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:910)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:853)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:768)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:486)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:285)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1122)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:461)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:295)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:292)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:626)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:932)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:479)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+	at com.engine.beanfactory.SpringBeanFactory.springStart(SpringBeanFactory.java:19)
+	at com.engine.main.Start.start(Start.java:47)
+	at com.lx.world.start.ServerStart.main(ServerStart.java:27)
+	at com.lx.world.start.WorldStart.main(WorldStart.java:29)
+2016-08-16 17:04:16 [ERROR] DruidDataSource.init(DruidDataSource.java:660) - dataSource init error
+java.sql.SQLException: Access denied for user 'root'@'192.168.40.47' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1074)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4074)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4006)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:919)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1694)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1244)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2397)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2430)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2215)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:813)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:399)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:334)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:148)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1377)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1431)
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:632)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeCustomInitMethod(AbstractAutowireCapableBeanFactory.java:1614)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1485)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:461)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:295)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:292)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:323)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:107)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1393)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1134)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:461)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:295)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:292)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:323)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:107)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1393)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1134)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:461)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:295)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:292)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:910)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:853)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:768)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:486)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:285)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1122)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:461)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:295)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:292)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:626)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:932)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:479)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+	at com.engine.beanfactory.SpringBeanFactory.springStart(SpringBeanFactory.java:19)
+	at com.engine.main.Start.start(Start.java:47)
+	at com.lx.world.start.ServerStart.main(ServerStart.java:27)
+	at com.lx.world.start.WorldStart.main(WorldStart.java:29)
+2016-08-16 17:04:16 [ INFO] DruidDataSource.init(DruidDataSource.java:669) - {dataSource-1} inited
+2016-08-16 17:04:16 [ INFO] DefaultListableBeanFactory.destroySingletons(DefaultSingletonBeanRegistry.java:444) - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@65694399: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,gateWorldPlayerExitResponseTask,checkTokenResponseTask,createRoleResponseTask,delRoleResponseTask,enterGameResponseTask,loginGameServerResponseTask,resetTalentResponseTask,gameWorldUpdatePlayerResponseTask,loginManage,serverPlayerManage,innerServerControl,minaClientControl,innerServer,innerServerListener,minaClientListener,minaClient,initializeManage,txtModelManage,attributeDescModel,attributeModel,bagConfigMode,buffModel,buffTypeModel,careerModel,careerTalentModel,equipmentConfigMode,equipmentLevelGrouthMode,equipmentPropertyModel,equipQualityMode,fuBenTemplateModel,functionMode,mainattributeMode,monsterActionModel,monsterGroupModel,monsterModel,npcConfigPojoModel,propertyModel,roleInitModel,roleLevelUpModel,skillTemplateModel,skillUnitModel,socketMode,taskConfigModel,taskModel,teamConfigModel,bagConfigLoad,itemManage,itemConfigLoad,registerResponseTask,requestTaskAdapter,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,dataSource,sf,entityDAO,logDAO,txManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+2016-08-16 17:07:30 [ INFO] ClassPathXmlApplicationContext.prepareRefresh(AbstractApplicationContext.java:510) - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7bf90a55: startup date [Tue Aug 16 17:07:30 CST 2016]; root of context hierarchy
+2016-08-16 17:07:30 [ INFO] XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315) - Loading XML bean definitions from class path resource [beans.xml]
+2016-08-16 17:07:31 [ INFO] PropertyPlaceholderConfigurer.loadProperties(PropertiesLoaderSupport.java:172) - Loading properties file from URL [file:F:/mye10/rotegamegitcode/gameyxd/WorldServerYxd/src/main/resources/config/jdbc.properties]
+2016-08-16 17:07:31 [ INFO] DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:596) - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@65694399: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,gateWorldPlayerExitResponseTask,checkTokenResponseTask,createRoleResponseTask,delRoleResponseTask,enterGameResponseTask,loginGameServerResponseTask,resetTalentResponseTask,gameWorldUpdatePlayerResponseTask,loginManage,serverPlayerManage,innerServerControl,minaClientControl,innerServer,innerServerListener,minaClientListener,minaClient,initializeManage,txtModelManage,attributeDescModel,attributeModel,bagConfigMode,buffModel,buffTypeModel,careerModel,careerTalentModel,equipmentConfigMode,equipmentLevelGrouthMode,equipmentPropertyModel,equipQualityMode,fuBenTemplateModel,functionMode,mainattributeMode,monsterActionModel,monsterGroupModel,monsterModel,npcConfigPojoModel,propertyModel,roleInitModel,roleLevelUpModel,skillTemplateModel,skillUnitModel,socketMode,taskConfigModel,taskModel,teamConfigModel,bagConfigLoad,itemManage,itemConfigLoad,registerResponseTask,requestTaskAdapter,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,dataSource,sf,entityDAO,logDAO,txManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+2016-08-16 17:07:32 [ INFO] DruidDataSource.init(DruidDataSource.java:669) - {dataSource-1} inited
+2016-08-16 17:07:32 [ INFO] Version.<clinit>(Version.java:37) - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-08-16 17:07:32 [ INFO] Version.logVersion(Version.java:41) - HHH000412: Hibernate Core {4.1.7.Final}
+2016-08-16 17:07:32 [ INFO] Environment.<clinit>(Environment.java:239) - HHH000206: hibernate.properties not found
+2016-08-16 17:07:32 [ INFO] Environment.buildBytecodeProvider(Environment.java:342) - HHH000021: Bytecode provider name : javassist
+2016-08-16 17:07:32 [ INFO] Dialect.<init>(Dialect.java:125) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-08-16 17:07:32 [ INFO] TransactionFactoryInitiator.initiateService(TransactionFactoryInitiator.java:68) - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-08-16 17:07:32 [ INFO] ASTQueryTranslatorFactory.<init>(ASTQueryTranslatorFactory.java:48) - HHH000397: Using ASTQueryTranslatorFactory
+2016-08-16 17:07:32 [ INFO] SchemaUpdate.execute(SchemaUpdate.java:182) - HHH000228: Running hbm2ddl schema update
+2016-08-16 17:07:32 [ INFO] SchemaUpdate.execute(SchemaUpdate.java:193) - HHH000102: Fetching database metadata
+2016-08-16 17:07:32 [ INFO] SchemaUpdate.execute(SchemaUpdate.java:205) - HHH000396: Updating schema
+2016-08-16 17:07:32 [ INFO] DatabaseMetaData.getTableMetadata(DatabaseMetadata.java:120) - HHH000262: Table not found: buffData
+2016-08-16 17:07:32 [ INFO] DatabaseMetaData.getTableMetadata(DatabaseMetadata.java:120) - HHH000262: Table not found: equipmentitem
+2016-08-16 17:07:32 [ INFO] DatabaseMetaData.getTableMetadata(DatabaseMetadata.java:120) - HHH000262: Table not found: role
+2016-08-16 17:07:32 [ INFO] DatabaseMetaData.getTableMetadata(DatabaseMetadata.java:120) - HHH000262: Table not found: skillData
+2016-08-16 17:07:32 [ INFO] DatabaseMetaData.getTableMetadata(DatabaseMetadata.java:120) - HHH000262: Table not found: taskdata
+2016-08-16 17:07:32 [ INFO] DatabaseMetaData.getTableMetadata(DatabaseMetadata.java:120) - HHH000262: Table not found: buffData
+2016-08-16 17:07:32 [ INFO] DatabaseMetaData.getTableMetadata(DatabaseMetadata.java:120) - HHH000262: Table not found: equipmentitem
+2016-08-16 17:07:32 [ INFO] DatabaseMetaData.getTableMetadata(DatabaseMetadata.java:120) - HHH000262: Table not found: role
+2016-08-16 17:07:32 [ INFO] DatabaseMetaData.getTableMetadata(DatabaseMetadata.java:120) - HHH000262: Table not found: skillData
+2016-08-16 17:07:32 [ INFO] DatabaseMetaData.getTableMetadata(DatabaseMetadata.java:120) - HHH000262: Table not found: taskdata
+2016-08-16 17:07:32 [ INFO] SchemaUpdate.execute(SchemaUpdate.java:240) - HHH000232: Schema update complete
+2016-08-16 17:07:32 [ERROR] CareerModel.<init>(ResourceModelImpl.java:58) - java.lang.NullPointerException: ???[F:\mye10\rotegamegitcode\gameyxd\EngineYxd\src\main\resources\conf/res/txt/Career.txt]???????
+java.lang.NullPointerException: ???[F:\mye10\rotegamegitcode\gameyxd\EngineYxd\src\main\resources\conf/res/txt/Career.txt]???????
+	at com.read.tool.txt.TxtLoader.<init>(TxtLoader.java:36)
+	at com.read.txt.ResourceModelImpl.load(ResourceModelImpl.java:127)
+	at com.read.txt.ResourceModelImpl.load(ResourceModelImpl.java:120)
+	at com.read.txt.ResourceModelImpl.<init>(ResourceModelImpl.java:54)
+	at com.lx.nserver.model.CareerModel.<init>(CareerModel.java:25)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:148)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1006)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:959)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:490)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:461)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:295)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:292)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:910)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:853)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:768)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:486)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:285)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1122)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:461)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:295)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:292)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:910)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:853)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:768)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:486)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:285)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1122)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:461)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:295)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:292)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:626)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:932)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:479)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+	at com.engine.beanfactory.SpringBeanFactory.springStart(SpringBeanFactory.java:19)
+	at com.engine.main.Start.start(Start.java:47)
+	at com.lx.world.start.ServerStart.main(ServerStart.java:27)
+	at com.lx.world.start.WorldStart.main(WorldStart.java:29)
+2016-08-16 17:07:32 [ERROR] RoleInitModel.<init>(ResourceModelImpl.java:58) - java.lang.NullPointerException: ???[F:\mye10\rotegamegitcode\gameyxd\EngineYxd\src\main\resources\conf/res/txt/RoleInit.txt]???????
+java.lang.NullPointerException: ???[F:\mye10\rotegamegitcode\gameyxd\EngineYxd\src\main\resources\conf/res/txt/RoleInit.txt]???????
+	at com.read.tool.txt.TxtLoader.<init>(TxtLoader.java:36)
+	at com.read.txt.ResourceModelImpl.load(ResourceModelImpl.java:127)
+	at com.read.txt.ResourceModelImpl.load(ResourceModelImpl.java:120)
+	at com.read.txt.ResourceModelImpl.<init>(ResourceModelImpl.java:54)
+	at com.lx.nserver.model.RoleInitModel.<init>(RoleInitModel.java:24)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:148)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1006)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:959)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:490)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:461)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:295)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:292)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:910)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:853)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:768)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:486)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:285)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1122)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:461)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:295)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:292)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:910)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:853)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:768)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:486)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:285)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1122)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:461)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:295)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:292)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:626)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:932)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:479)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+	at com.engine.beanfactory.SpringBeanFactory.springStart(SpringBeanFactory.java:19)
+	at com.engine.main.Start.start(Start.java:47)
+	at com.lx.world.start.ServerStart.main(ServerStart.java:27)
+	at com.lx.world.start.WorldStart.main(WorldStart.java:29)
+2016-08-16 17:07:32 [ERROR] CareerTalentModel.<init>(ResourceModelImpl.java:58) - java.lang.NullPointerException: ???[F:\mye10\rotegamegitcode\gameyxd\EngineYxd\src\main\resources\conf/res/txt/CareerTalent.txt]???????
+java.lang.NullPointerException: ???[F:\mye10\rotegamegitcode\gameyxd\EngineYxd\src\main\resources\conf/res/txt/CareerTalent.txt]???????
+	at com.read.tool.txt.TxtLoader.<init>(TxtLoader.java:36)
+	at com.read.txt.ResourceModelImpl.load(ResourceModelImpl.java:127)
+	at com.read.txt.ResourceModelImpl.load(ResourceModelImpl.java:120)
+	at com.read.txt.ResourceModelImpl.<init>(ResourceModelImpl.java:54)
+	at com.lx.nserver.model.CareerTalentModel.<init>(CareerTalentModel.java:34)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:148)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1006)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:959)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:490)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:461)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:295)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:292)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:910)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:853)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:768)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:486)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:285)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1122)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:461)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:295)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:292)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:626)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:932)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:479)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+	at com.engine.beanfactory.SpringBeanFactory.springStart(SpringBeanFactory.java:19)
+	at com.engine.main.Start.start(Start.java:47)
+	at com.lx.world.start.ServerStart.main(ServerStart.java:27)
+	at com.lx.world.start.WorldStart.main(WorldStart.java:29)
+2016-08-16 17:07:32 [ INFO] DefaultListableBeanFactory.destroySingletons(DefaultSingletonBeanRegistry.java:444) - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@65694399: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,gateWorldPlayerExitResponseTask,checkTokenResponseTask,createRoleResponseTask,delRoleResponseTask,enterGameResponseTask,loginGameServerResponseTask,resetTalentResponseTask,gameWorldUpdatePlayerResponseTask,loginManage,serverPlayerManage,innerServerControl,minaClientControl,innerServer,innerServerListener,minaClientListener,minaClient,initializeManage,txtModelManage,attributeDescModel,attributeModel,bagConfigMode,buffModel,buffTypeModel,careerModel,careerTalentModel,equipmentConfigMode,equipmentLevelGrouthMode,equipmentPropertyModel,equipQualityMode,fuBenTemplateModel,functionMode,mainattributeMode,monsterActionModel,monsterGroupModel,monsterModel,npcConfigPojoModel,propertyModel,roleInitModel,roleLevelUpModel,skillTemplateModel,skillUnitModel,socketMode,taskConfigModel,taskModel,teamConfigModel,bagConfigLoad,itemManage,itemConfigLoad,registerResponseTask,requestTaskAdapter,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,dataSource,sf,entityDAO,logDAO,txManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+2016-08-16 17:07:32 [ INFO] DruidDataSource.close(DruidDataSource.java:1385) - {dataSource-1} closed
+2016-08-16 17:12:11 [ INFO] ClassPathXmlApplicationContext.prepareRefresh(AbstractApplicationContext.java:510) - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@40dcdc8b: startup date [Tue Aug 16 17:12:11 CST 2016]; root of context hierarchy
+2016-08-16 17:12:12 [ INFO] XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315) - Loading XML bean definitions from class path resource [beans.xml]
+2016-08-16 17:12:12 [ INFO] PropertyPlaceholderConfigurer.loadProperties(PropertiesLoaderSupport.java:172) - Loading properties file from URL [file:F:/mye10/rotegamegitcode/gameyxd/WorldServerYxd/src/main/resources/config/jdbc.properties]
+2016-08-16 17:12:12 [ INFO] DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:596) - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@2b73ef3f: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,gateWorldPlayerExitResponseTask,checkTokenResponseTask,createRoleResponseTask,delRoleResponseTask,enterGameResponseTask,loginGameServerResponseTask,resetTalentResponseTask,gameWorldUpdatePlayerResponseTask,loginManage,serverPlayerManage,innerServerControl,minaClientControl,innerServer,innerServerListener,minaClientListener,minaClient,initializeManage,txtModelManage,attributeDescModel,attributeModel,bagConfigMode,buffModel,buffTypeModel,careerModel,careerTalentModel,equipmentConfigMode,equipmentLevelGrouthMode,equipmentPropertyModel,equipQualityMode,fuBenTemplateModel,functionMode,mainattributeMode,monsterActionModel,monsterGroupModel,monsterModel,npcConfigPojoModel,propertyModel,roleInitModel,roleLevelUpModel,skillTemplateModel,skillUnitModel,socketMode,taskConfigModel,taskModel,teamConfigModel,bagConfigLoad,itemManage,itemConfigLoad,registerResponseTask,requestTaskAdapter,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,dataSource,sf,entityDAO,logDAO,txManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+2016-08-16 17:12:13 [ INFO] DruidDataSource.init(DruidDataSource.java:669) - {dataSource-1} inited
+2016-08-16 17:12:13 [ INFO] Version.<clinit>(Version.java:37) - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-08-16 17:12:13 [ INFO] Version.logVersion(Version.java:41) - HHH000412: Hibernate Core {4.1.7.Final}
+2016-08-16 17:12:13 [ INFO] Environment.<clinit>(Environment.java:239) - HHH000206: hibernate.properties not found
+2016-08-16 17:12:13 [ INFO] Environment.buildBytecodeProvider(Environment.java:342) - HHH000021: Bytecode provider name : javassist
+2016-08-16 17:12:13 [ INFO] Dialect.<init>(Dialect.java:125) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-08-16 17:12:13 [ INFO] TransactionFactoryInitiator.initiateService(TransactionFactoryInitiator.java:68) - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-08-16 17:12:13 [ INFO] ASTQueryTranslatorFactory.<init>(ASTQueryTranslatorFactory.java:48) - HHH000397: Using ASTQueryTranslatorFactory
+2016-08-16 17:12:13 [ INFO] SchemaUpdate.execute(SchemaUpdate.java:182) - HHH000228: Running hbm2ddl schema update
+2016-08-16 17:12:13 [ INFO] SchemaUpdate.execute(SchemaUpdate.java:193) - HHH000102: Fetching database metadata
+2016-08-16 17:12:13 [ INFO] SchemaUpdate.execute(SchemaUpdate.java:205) - HHH000396: Updating schema
+2016-08-16 17:12:13 [ INFO] TableMetadata.<init>(TableMetadata.java:65) - HHH000261: Table found: loncent_game_server.buffData
+2016-08-16 17:12:13 [ INFO] TableMetadata.<init>(TableMetadata.java:66) - HHH000037: Columns: [id, roleid, buffinfos]
+2016-08-16 17:12:13 [ INFO] TableMetadata.<init>(TableMetadata.java:68) - HHH000108: Foreign keys: []
+2016-08-16 17:12:13 [ INFO] TableMetadata.<init>(TableMetadata.java:69) - HHH000126: Indexes: [primary]
+2016-08-16 17:12:13 [ INFO] TableMetadata.<init>(TableMetadata.java:65) - HHH000261: Table found: loncent_game_server.equipmentitem
+2016-08-16 17:12:13 [ INFO] TableMetadata.<init>(TableMetadata.java:66) - HHH000037: Columns: [renewtimes, itemtype, id, level, roleid, configid, indexinbag, score, quality, socket, number, pos, effecttime]
+2016-08-16 17:12:13 [ INFO] TableMetadata.<init>(TableMetadata.java:68) - HHH000108: Foreign keys: []
+2016-08-16 17:12:13 [ INFO] TableMetadata.<init>(TableMetadata.java:69) - HHH000126: Indexes: [primary]
+2016-08-16 17:12:13 [ INFO] TableMetadata.<init>(TableMetadata.java:65) - HHH000261: Table found: loncent_game_server.role
+2016-08-16 17:12:13 [ INFO] TableMetadata.<init>(TableMetadata.java:66) - HHH000037: Columns: [hp, titleconfigid, passedfubenuids, vits, agility, createtime, id, username, rolename, defence, dir, mapuid, money, maintaskindex, rechargegold, loginouttime, equitgridnumber, control, viplevel, mp, curexp, rolelevel, guildid, serverid, guildname, innerforce, guideinfo, careerconfigid, bindgold, anger, fubenid, tenacity, counterstr, air, loginintime, onlinetime, z, commongridnumber, chinesezodiacid, y, x]
+2016-08-16 17:12:13 [ INFO] TableMetadata.<init>(TableMetadata.java:68) - HHH000108: Foreign keys: []
+2016-08-16 17:12:13 [ INFO] TableMetadata.<init>(TableMetadata.java:69) - HHH000126: Indexes: [user_name, primary, role_name]
+2016-08-16 17:12:13 [ INFO] TableMetadata.<init>(TableMetadata.java:65) - HHH000261: Table found: loncent_game_server.skillData
+2016-08-16 17:12:13 [ INFO] TableMetadata.<init>(TableMetadata.java:66) - HHH000037: Columns: [id, roleid, skilldata]
+2016-08-16 17:12:13 [ INFO] TableMetadata.<init>(TableMetadata.java:68) - HHH000108: Foreign keys: []
+2016-08-16 17:12:13 [ INFO] TableMetadata.<init>(TableMetadata.java:69) - HHH000126: Indexes: [primary]
+2016-08-16 17:12:13 [ INFO] TableMetadata.<init>(TableMetadata.java:65) - HHH000261: Table found: loncent_game_server.taskdata
+2016-08-16 17:12:13 [ INFO] TableMetadata.<init>(TableMetadata.java:66) - HHH000037: Columns: [npcid, id, taskstate, ts, roleid, finishnumber]
+2016-08-16 17:12:13 [ INFO] TableMetadata.<init>(TableMetadata.java:68) - HHH000108: Foreign keys: []
+2016-08-16 17:12:13 [ INFO] TableMetadata.<init>(TableMetadata.java:69) - HHH000126: Indexes: [primary]
+2016-08-16 17:12:13 [ INFO] SchemaUpdate.execute(SchemaUpdate.java:240) - HHH000232: Schema update complete
+2016-08-16 17:12:50 [ INFO] ClassPathXmlApplicationContext.prepareRefresh(AbstractApplicationContext.java:510) - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@40dcdc8b: startup date [Tue Aug 16 17:12:50 CST 2016]; root of context hierarchy
+2016-08-16 17:12:50 [ INFO] XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315) - Loading XML bean definitions from class path resource [beans.xml]
+2016-08-16 17:12:51 [ INFO] PropertyPlaceholderConfigurer.loadProperties(PropertiesLoaderSupport.java:172) - Loading properties file from URL [file:F:/mye10/rotegamegitcode/gameyxd/WorldServerYxd/src/main/resources/config/jdbc.properties]
+2016-08-16 17:12:51 [ INFO] DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:596) - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@2b73ef3f: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,gateWorldPlayerExitResponseTask,checkTokenResponseTask,createRoleResponseTask,delRoleResponseTask,enterGameResponseTask,loginGameServerResponseTask,resetTalentResponseTask,gameWorldUpdatePlayerResponseTask,loginManage,serverPlayerManage,innerServerControl,minaClientControl,innerServer,innerServerListener,minaClientListener,minaClient,initializeManage,txtModelManage,attributeDescModel,attributeModel,bagConfigMode,buffModel,buffTypeModel,careerModel,careerTalentModel,equipmentConfigMode,equipmentLevelGrouthMode,equipmentPropertyModel,equipQualityMode,fuBenTemplateModel,functionMode,mainattributeMode,monsterActionModel,monsterGroupModel,monsterModel,npcConfigPojoModel,propertyModel,roleInitModel,roleLevelUpModel,skillTemplateModel,skillUnitModel,socketMode,taskConfigModel,taskModel,teamConfigModel,bagConfigLoad,itemManage,itemConfigLoad,registerResponseTask,requestTaskAdapter,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,dataSource,sf,entityDAO,logDAO,txManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+2016-08-16 17:12:52 [ INFO] DruidDataSource.init(DruidDataSource.java:669) - {dataSource-1} inited
+2016-08-16 17:12:52 [ INFO] Version.<clinit>(Version.java:37) - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-08-16 17:12:52 [ INFO] Version.logVersion(Version.java:41) - HHH000412: Hibernate Core {4.1.7.Final}
+2016-08-16 17:12:52 [ INFO] Environment.<clinit>(Environment.java:239) - HHH000206: hibernate.properties not found
+2016-08-16 17:12:52 [ INFO] Environment.buildBytecodeProvider(Environment.java:342) - HHH000021: Bytecode provider name : javassist
+2016-08-16 17:12:52 [ INFO] Dialect.<init>(Dialect.java:125) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-08-16 17:12:52 [ INFO] TransactionFactoryInitiator.initiateService(TransactionFactoryInitiator.java:68) - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-08-16 17:12:52 [ INFO] ASTQueryTranslatorFactory.<init>(ASTQueryTranslatorFactory.java:48) - HHH000397: Using ASTQueryTranslatorFactory
+2016-08-16 17:12:52 [ INFO] SchemaUpdate.execute(SchemaUpdate.java:182) - HHH000228: Running hbm2ddl schema update
+2016-08-16 17:12:52 [ INFO] SchemaUpdate.execute(SchemaUpdate.java:193) - HHH000102: Fetching database metadata
+2016-08-16 17:12:52 [ INFO] SchemaUpdate.execute(SchemaUpdate.java:205) - HHH000396: Updating schema
+2016-08-16 17:12:52 [ INFO] TableMetadata.<init>(TableMetadata.java:65) - HHH000261: Table found: loncent_game_server.buffData
+2016-08-16 17:12:52 [ INFO] TableMetadata.<init>(TableMetadata.java:66) - HHH000037: Columns: [id, roleid, buffinfos]
+2016-08-16 17:12:52 [ INFO] TableMetadata.<init>(TableMetadata.java:68) - HHH000108: Foreign keys: []
+2016-08-16 17:12:52 [ INFO] TableMetadata.<init>(TableMetadata.java:69) - HHH000126: Indexes: [primary]
+2016-08-16 17:12:52 [ INFO] TableMetadata.<init>(TableMetadata.java:65) - HHH000261: Table found: loncent_game_server.equipmentitem
+2016-08-16 17:12:52 [ INFO] TableMetadata.<init>(TableMetadata.java:66) - HHH000037: Columns: [renewtimes, itemtype, id, level, roleid, configid, indexinbag, score, quality, socket, number, pos, effecttime]
+2016-08-16 17:12:52 [ INFO] TableMetadata.<init>(TableMetadata.java:68) - HHH000108: Foreign keys: []
+2016-08-16 17:12:52 [ INFO] TableMetadata.<init>(TableMetadata.java:69) - HHH000126: Indexes: [primary]
+2016-08-16 17:12:52 [ INFO] TableMetadata.<init>(TableMetadata.java:65) - HHH000261: Table found: loncent_game_server.role
+2016-08-16 17:12:52 [ INFO] TableMetadata.<init>(TableMetadata.java:66) - HHH000037: Columns: [hp, titleconfigid, passedfubenuids, vits, agility, createtime, id, username, rolename, defence, dir, mapuid, money, maintaskindex, rechargegold, loginouttime, equitgridnumber, control, viplevel, mp, curexp, rolelevel, guildid, serverid, guildname, innerforce, guideinfo, careerconfigid, bindgold, anger, fubenid, tenacity, counterstr, air, loginintime, onlinetime, z, commongridnumber, chinesezodiacid, y, x]
+2016-08-16 17:12:52 [ INFO] TableMetadata.<init>(TableMetadata.java:68) - HHH000108: Foreign keys: []
+2016-08-16 17:12:52 [ INFO] TableMetadata.<init>(TableMetadata.java:69) - HHH000126: Indexes: [user_name, primary, role_name]
+2016-08-16 17:12:52 [ INFO] TableMetadata.<init>(TableMetadata.java:65) - HHH000261: Table found: loncent_game_server.skillData
+2016-08-16 17:12:52 [ INFO] TableMetadata.<init>(TableMetadata.java:66) - HHH000037: Columns: [id, roleid, skilldata]
+2016-08-16 17:12:52 [ INFO] TableMetadata.<init>(TableMetadata.java:68) - HHH000108: Foreign keys: []
+2016-08-16 17:12:52 [ INFO] TableMetadata.<init>(TableMetadata.java:69) - HHH000126: Indexes: [primary]
+2016-08-16 17:12:52 [ INFO] TableMetadata.<init>(TableMetadata.java:65) - HHH000261: Table found: loncent_game_server.taskdata
+2016-08-16 17:12:52 [ INFO] TableMetadata.<init>(TableMetadata.java:66) - HHH000037: Columns: [npcid, id, taskstate, ts, roleid, finishnumber]
+2016-08-16 17:12:52 [ INFO] TableMetadata.<init>(TableMetadata.java:68) - HHH000108: Foreign keys: []
+2016-08-16 17:12:52 [ INFO] TableMetadata.<init>(TableMetadata.java:69) - HHH000126: Indexes: [primary]
+2016-08-16 17:12:52 [ INFO] SchemaUpdate.execute(SchemaUpdate.java:240) - HHH000232: Schema update complete
+2016-08-16 17:18:07 [ INFO] ClassPathXmlApplicationContext.prepareRefresh(AbstractApplicationContext.java:510) - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@40dcdc8b: startup date [Tue Aug 16 17:18:07 CST 2016]; root of context hierarchy
+2016-08-16 17:18:07 [ INFO] XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315) - Loading XML bean definitions from class path resource [beans.xml]
+2016-08-16 17:18:07 [ INFO] PropertyPlaceholderConfigurer.loadProperties(PropertiesLoaderSupport.java:172) - Loading properties file from URL [file:F:/mye10/rotegamegitcode/gameyxd/WorldServerYxd/src/main/resources/config/jdbc.properties]
+2016-08-16 17:18:07 [ INFO] DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:596) - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@2b73ef3f: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,gateWorldPlayerExitResponseTask,checkTokenResponseTask,createRoleResponseTask,delRoleResponseTask,enterGameResponseTask,loginGameServerResponseTask,resetTalentResponseTask,gameWorldUpdatePlayerResponseTask,loginManage,serverPlayerManage,innerServerControl,minaClientControl,innerServer,innerServerListener,minaClientListener,minaClient,initializeManage,txtModelManage,attributeDescModel,attributeModel,bagConfigMode,buffModel,buffTypeModel,careerModel,careerTalentModel,equipmentConfigMode,equipmentLevelGrouthMode,equipmentPropertyModel,equipQualityMode,fuBenTemplateModel,functionMode,mainattributeMode,monsterActionModel,monsterGroupModel,monsterModel,npcConfigPojoModel,propertyModel,roleInitModel,roleLevelUpModel,skillTemplateModel,skillUnitModel,socketMode,taskConfigModel,taskModel,teamConfigModel,bagConfigLoad,itemManage,itemConfigLoad,registerResponseTask,requestTaskAdapter,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,dataSource,sf,entityDAO,logDAO,txManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+2016-08-16 17:18:08 [ INFO] DruidDataSource.init(DruidDataSource.java:669) - {dataSource-1} inited
+2016-08-16 17:18:08 [ INFO] Version.<clinit>(Version.java:37) - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-08-16 17:18:08 [ INFO] Version.logVersion(Version.java:41) - HHH000412: Hibernate Core {4.1.7.Final}
+2016-08-16 17:18:08 [ INFO] Environment.<clinit>(Environment.java:239) - HHH000206: hibernate.properties not found
+2016-08-16 17:18:08 [ INFO] Environment.buildBytecodeProvider(Environment.java:342) - HHH000021: Bytecode provider name : javassist
+2016-08-16 17:18:08 [ INFO] Dialect.<init>(Dialect.java:125) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-08-16 17:18:08 [ INFO] TransactionFactoryInitiator.initiateService(TransactionFactoryInitiator.java:68) - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-08-16 17:18:08 [ INFO] ASTQueryTranslatorFactory.<init>(ASTQueryTranslatorFactory.java:48) - HHH000397: Using ASTQueryTranslatorFactory
+2016-08-16 17:18:08 [ INFO] SchemaUpdate.execute(SchemaUpdate.java:182) - HHH000228: Running hbm2ddl schema update
+2016-08-16 17:18:08 [ INFO] SchemaUpdate.execute(SchemaUpdate.java:193) - HHH000102: Fetching database metadata
+2016-08-16 17:18:08 [ INFO] SchemaUpdate.execute(SchemaUpdate.java:205) - HHH000396: Updating schema
+2016-08-16 17:18:08 [ INFO] TableMetadata.<init>(TableMetadata.java:65) - HHH000261: Table found: loncent_game_server.buffData
+2016-08-16 17:18:08 [ INFO] TableMetadata.<init>(TableMetadata.java:66) - HHH000037: Columns: [id, roleid, buffinfos]
+2016-08-16 17:18:08 [ INFO] TableMetadata.<init>(TableMetadata.java:68) - HHH000108: Foreign keys: []
+2016-08-16 17:18:08 [ INFO] TableMetadata.<init>(TableMetadata.java:69) - HHH000126: Indexes: [primary]
+2016-08-16 17:18:08 [ INFO] TableMetadata.<init>(TableMetadata.java:65) - HHH000261: Table found: loncent_game_server.equipmentitem
+2016-08-16 17:18:08 [ INFO] TableMetadata.<init>(TableMetadata.java:66) - HHH000037: Columns: [renewtimes, itemtype, id, level, roleid, configid, indexinbag, score, quality, socket, number, pos, effecttime]
+2016-08-16 17:18:08 [ INFO] TableMetadata.<init>(TableMetadata.java:68) - HHH000108: Foreign keys: []
+2016-08-16 17:18:08 [ INFO] TableMetadata.<init>(TableMetadata.java:69) - HHH000126: Indexes: [primary]
+2016-08-16 17:18:08 [ INFO] TableMetadata.<init>(TableMetadata.java:65) - HHH000261: Table found: loncent_game_server.role
+2016-08-16 17:18:08 [ INFO] TableMetadata.<init>(TableMetadata.java:66) - HHH000037: Columns: [hp, titleconfigid, passedfubenuids, vits, agility, createtime, id, username, rolename, defence, dir, mapuid, money, maintaskindex, rechargegold, loginouttime, equitgridnumber, control, viplevel, mp, curexp, rolelevel, guildid, serverid, guildname, innerforce, guideinfo, careerconfigid, bindgold, anger, fubenid, tenacity, counterstr, air, loginintime, onlinetime, z, commongridnumber, chinesezodiacid, y, x]
+2016-08-16 17:18:08 [ INFO] TableMetadata.<init>(TableMetadata.java:68) - HHH000108: Foreign keys: []
+2016-08-16 17:18:08 [ INFO] TableMetadata.<init>(TableMetadata.java:69) - HHH000126: Indexes: [user_name, primary, role_name]
+2016-08-16 17:18:08 [ INFO] TableMetadata.<init>(TableMetadata.java:65) - HHH000261: Table found: loncent_game_server.skillData
+2016-08-16 17:18:08 [ INFO] TableMetadata.<init>(TableMetadata.java:66) - HHH000037: Columns: [id, roleid, skilldata]
+2016-08-16 17:18:08 [ INFO] TableMetadata.<init>(TableMetadata.java:68) - HHH000108: Foreign keys: []
+2016-08-16 17:18:08 [ INFO] TableMetadata.<init>(TableMetadata.java:69) - HHH000126: Indexes: [primary]
+2016-08-16 17:18:08 [ INFO] TableMetadata.<init>(TableMetadata.java:65) - HHH000261: Table found: loncent_game_server.taskdata
+2016-08-16 17:18:08 [ INFO] TableMetadata.<init>(TableMetadata.java:66) - HHH000037: Columns: [npcid, id, taskstate, ts, roleid, finishnumber]
+2016-08-16 17:18:08 [ INFO] TableMetadata.<init>(TableMetadata.java:68) - HHH000108: Foreign keys: []
+2016-08-16 17:18:08 [ INFO] TableMetadata.<init>(TableMetadata.java:69) - HHH000126: Indexes: [primary]
+2016-08-16 17:18:08 [ INFO] SchemaUpdate.execute(SchemaUpdate.java:240) - HHH000232: Schema update complete
+2016-08-16 17:18:31 [ERROR] CareerModel.printLog(CareerModel.java:31) - 加载职业完成:CareerModel
+2016-08-16 17:18:31 [ERROR] RoleInitModel.printLog(RoleInitModel.java:30) - 角色初始化数据完成::RoleInitModel
+2016-08-16 17:18:31 [ERROR] CareerTalentModel.printLog(CareerTalentModel.java:51) - 加载职业资质完成---CareerTalentModel
+2016-08-16 17:18:31 [ INFO] DefaultListableBeanFactory.destroySingletons(DefaultSingletonBeanRegistry.java:444) - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@2b73ef3f: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,gateWorldPlayerExitResponseTask,checkTokenResponseTask,createRoleResponseTask,delRoleResponseTask,enterGameResponseTask,loginGameServerResponseTask,resetTalentResponseTask,gameWorldUpdatePlayerResponseTask,loginManage,serverPlayerManage,innerServerControl,minaClientControl,innerServer,innerServerListener,minaClientListener,minaClient,initializeManage,txtModelManage,attributeDescModel,attributeModel,bagConfigMode,buffModel,buffTypeModel,careerModel,careerTalentModel,equipmentConfigMode,equipmentLevelGrouthMode,equipmentPropertyModel,equipQualityMode,fuBenTemplateModel,functionMode,mainattributeMode,monsterActionModel,monsterGroupModel,monsterModel,npcConfigPojoModel,propertyModel,roleInitModel,roleLevelUpModel,skillTemplateModel,skillUnitModel,socketMode,taskConfigModel,taskModel,teamConfigModel,bagConfigLoad,itemManage,itemConfigLoad,registerResponseTask,requestTaskAdapter,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,dataSource,sf,entityDAO,logDAO,txManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+2016-08-16 17:18:31 [ INFO] DruidDataSource.close(DruidDataSource.java:1385) - {dataSource-1} closed
+2016-08-16 17:21:46 [ INFO] ClassPathXmlApplicationContext.prepareRefresh(AbstractApplicationContext.java:510) - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7bf90a55: startup date [Tue Aug 16 17:21:46 CST 2016]; root of context hierarchy
+2016-08-16 17:21:46 [ INFO] XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315) - Loading XML bean definitions from class path resource [beans.xml]
+2016-08-16 17:24:45 [ INFO] ClassPathXmlApplicationContext.prepareRefresh(AbstractApplicationContext.java:510) - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7bf90a55: startup date [Tue Aug 16 17:24:45 CST 2016]; root of context hierarchy
+2016-08-16 17:24:45 [ INFO] XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315) - Loading XML bean definitions from class path resource [beans.xml]
+2016-08-16 17:24:46 [ INFO] DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:663) - Overriding bean definition for bean 'entityDAO': replacing [Generic bean: class [com.engine.dbdao.EntityDAO]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [F:\mye10\rotegamegitcode\gameyxd\EngineYxd\target\classes\com\engine\dbdao\EntityDAO.class]] with [Generic bean: class [com.engine.dbdao.EntityDAO]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [beans.xml]]
+2016-08-16 17:24:46 [ INFO] DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:663) - Overriding bean definition for bean 'logDAO': replacing [Generic bean: class [com.engine.dbdao.LogDAO]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [F:\mye10\rotegamegitcode\gameyxd\EngineYxd\target\classes\com\engine\dbdao\LogDAO.class]] with [Generic bean: class [com.engine.dbdao.LogDAO]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [beans.xml]]
+2016-08-16 17:24:46 [ INFO] PropertyPlaceholderConfigurer.loadProperties(PropertiesLoaderSupport.java:172) - Loading properties file from URL [file:F:/mye10/rotegamegitcode/gameyxd/WorldServerYxd/src/main/resources/config/jdbc.properties]
+2016-08-16 17:24:46 [ INFO] DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:596) - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@581f8a98: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,gateWorldPlayerExitResponseTask,checkTokenResponseTask,createRoleResponseTask,delRoleResponseTask,enterGameResponseTask,loginGameServerResponseTask,resetTalentResponseTask,gameWorldUpdatePlayerResponseTask,loginManage,serverPlayerManage,innerServerControl,minaClientControl,innerServer,innerServerListener,minaClientListener,minaClient,initializeManage,txtModelManage,attributeDescModel,attributeModel,bagConfigMode,buffModel,buffTypeModel,careerModel,careerTalentModel,equipmentConfigMode,equipmentLevelGrouthMode,equipmentPropertyModel,equipQualityMode,fuBenTemplateModel,functionMode,mainattributeMode,monsterActionModel,monsterGroupModel,monsterModel,npcConfigPojoModel,propertyModel,roleInitModel,roleLevelUpModel,skillTemplateModel,skillUnitModel,socketMode,taskConfigModel,taskModel,teamConfigModel,bagConfigLoad,itemManage,itemConfigLoad,registerResponseTask,requestTaskAdapter,spaceInfoManage,entityDAO,logDAO,gameHttpServer,configFactory,commondClassLoader,timerCallbackThread,timerThread,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,dataSource,sf,txManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+2016-08-16 17:24:46 [ INFO] DruidDataSource.init(DruidDataSource.java:669) - {dataSource-1} inited
+2016-08-16 17:24:47 [ INFO] Version.<clinit>(Version.java:37) - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-08-16 17:24:47 [ INFO] Version.logVersion(Version.java:41) - HHH000412: Hibernate Core {4.1.7.Final}
+2016-08-16 17:24:47 [ INFO] Environment.<clinit>(Environment.java:239) - HHH000206: hibernate.properties not found
+2016-08-16 17:24:47 [ INFO] Environment.buildBytecodeProvider(Environment.java:342) - HHH000021: Bytecode provider name : javassist
+2016-08-16 17:24:47 [ INFO] Dialect.<init>(Dialect.java:125) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-08-16 17:24:47 [ INFO] TransactionFactoryInitiator.initiateService(TransactionFactoryInitiator.java:68) - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-08-16 17:24:47 [ INFO] ASTQueryTranslatorFactory.<init>(ASTQueryTranslatorFactory.java:48) - HHH000397: Using ASTQueryTranslatorFactory
+2016-08-16 17:24:47 [ INFO] SchemaUpdate.execute(SchemaUpdate.java:182) - HHH000228: Running hbm2ddl schema update
+2016-08-16 17:24:47 [ INFO] SchemaUpdate.execute(SchemaUpdate.java:193) - HHH000102: Fetching database metadata
+2016-08-16 17:24:47 [ INFO] SchemaUpdate.execute(SchemaUpdate.java:205) - HHH000396: Updating schema
+2016-08-16 17:24:47 [ INFO] TableMetadata.<init>(TableMetadata.java:65) - HHH000261: Table found: loncent_game_server.buffData
+2016-08-16 17:24:47 [ INFO] TableMetadata.<init>(TableMetadata.java:66) - HHH000037: Columns: [id, roleid, buffinfos]
+2016-08-16 17:24:47 [ INFO] TableMetadata.<init>(TableMetadata.java:68) - HHH000108: Foreign keys: []
+2016-08-16 17:24:47 [ INFO] TableMetadata.<init>(TableMetadata.java:69) - HHH000126: Indexes: [primary]
+2016-08-16 17:24:47 [ INFO] TableMetadata.<init>(TableMetadata.java:65) - HHH000261: Table found: loncent_game_server.equipmentitem
+2016-08-16 17:24:47 [ INFO] TableMetadata.<init>(TableMetadata.java:66) - HHH000037: Columns: [renewtimes, itemtype, id, level, roleid, configid, indexinbag, score, quality, socket, number, pos, effecttime]
+2016-08-16 17:24:47 [ INFO] TableMetadata.<init>(TableMetadata.java:68) - HHH000108: Foreign keys: []
+2016-08-16 17:24:47 [ INFO] TableMetadata.<init>(TableMetadata.java:69) - HHH000126: Indexes: [primary]
+2016-08-16 17:24:47 [ INFO] TableMetadata.<init>(TableMetadata.java:65) - HHH000261: Table found: loncent_game_server.role
+2016-08-16 17:24:47 [ INFO] TableMetadata.<init>(TableMetadata.java:66) - HHH000037: Columns: [hp, titleconfigid, passedfubenuids, vits, agility, createtime, id, username, rolename, defence, dir, mapuid, money, maintaskindex, rechargegold, loginouttime, equitgridnumber, control, viplevel, mp, curexp, rolelevel, guildid, serverid, guildname, innerforce, guideinfo, careerconfigid, bindgold, anger, fubenid, tenacity, counterstr, air, loginintime, onlinetime, z, commongridnumber, chinesezodiacid, y, x]
+2016-08-16 17:24:47 [ INFO] TableMetadata.<init>(TableMetadata.java:68) - HHH000108: Foreign keys: []
+2016-08-16 17:24:47 [ INFO] TableMetadata.<init>(TableMetadata.java:69) - HHH000126: Indexes: [user_name, primary, role_name]
+2016-08-16 17:24:47 [ INFO] TableMetadata.<init>(TableMetadata.java:65) - HHH000261: Table found: loncent_game_server.skillData
+2016-08-16 17:24:47 [ INFO] TableMetadata.<init>(TableMetadata.java:66) - HHH000037: Columns: [id, roleid, skilldata]
+2016-08-16 17:24:47 [ INFO] TableMetadata.<init>(TableMetadata.java:68) - HHH000108: Foreign keys: []
+2016-08-16 17:24:47 [ INFO] TableMetadata.<init>(TableMetadata.java:69) - HHH000126: Indexes: [primary]
+2016-08-16 17:24:47 [ INFO] TableMetadata.<init>(TableMetadata.java:65) - HHH000261: Table found: loncent_game_server.taskdata
+2016-08-16 17:24:47 [ INFO] TableMetadata.<init>(TableMetadata.java:66) - HHH000037: Columns: [npcid, id, taskstate, ts, roleid, finishnumber]
+2016-08-16 17:24:47 [ INFO] TableMetadata.<init>(TableMetadata.java:68) - HHH000108: Foreign keys: []
+2016-08-16 17:24:47 [ INFO] TableMetadata.<init>(TableMetadata.java:69) - HHH000126: Indexes: [primary]
+2016-08-16 17:24:47 [ INFO] SchemaUpdate.execute(SchemaUpdate.java:240) - HHH000232: Schema update complete
+2016-08-16 17:24:47 [ERROR] CareerModel.printLog(CareerModel.java:31) - 加载职业完成:CareerModel
+2016-08-16 17:24:47 [ERROR] RoleInitModel.printLog(RoleInitModel.java:30) - 角色初始化数据完成::RoleInitModel
+2016-08-16 17:24:47 [ERROR] CareerTalentModel.printLog(CareerTalentModel.java:51) - 加载职业资质完成---CareerTalentModel
+2016-08-16 17:24:47 [ INFO] FuBenTemplateModel.printLog(FuBenTemplateModel.java:27) - 加载副本配置表完成！FuBenTemplateModel
+2016-08-16 17:24:47 [ INFO] SkillTemplateModel.printLog(SkillTemplateModel.java:30) - 加载技能配置表完成!SkillTemplateModel
+2016-08-16 17:24:47 [ERROR] SkillUnitModel.printLog(SkillUnitModel.java:31) - 技能伤害单元加载完成::SkillUnitModel
+2016-08-16 17:24:47 [ERROR] AttributeDescModel.printLog(AttributeDescModel.java:51) - 加载属性说明完成!!!!!!!!!!!AttributeDescModel
+2016-08-16 17:24:47 [ERROR] AttributeModel.printLog(AttributeModel.java:53) - 加载属性完成!!!!!!!!!!!AttributeModel
+2016-08-16 17:24:47 [ERROR] BagConfigMode.printLog(BagConfigMode.java:38) - 背包购买设置表加载完成::BagConfigMode
+2016-08-16 17:24:47 [ INFO] BuffModel.printLog(BuffModel.java:23) - Buff总表加载完成!!!BuffModel
+2016-08-16 17:24:47 [ INFO] BuffTypeModel.printLog(BuffTypeModel.java:23) - Buff类别加载完成！！！BuffTypeModel
+2016-08-16 17:24:47 [ERROR] EquipmentPropertyModel.printLog(EquipmentConfigMode.java:38) - 装备配置表加载完成::EquipmentConfigMode
+2016-08-16 17:24:47 [ERROR] EquipmentLevelGrouthMode.printLog(EquipmentLevelGrouthMode.java:38) - 装备成长配置表加载完成::EquipmentLevelGrouthMode
+2016-08-16 17:24:47 [ERROR] EquipmentPropertyModel.printLog(EquipmentPropertyModel.java:38) - 装备原型配置表加载完成::EquipmentPropertyModel
+2016-08-16 17:24:47 [ERROR] EquipQualityMode.printLog(EquipQualityMode.java:38) - 装备质量配置表加载完成::EquipQualityMode
+2016-08-16 17:24:47 [ERROR] PropertyModel.printLog(FunctionMode.java:38) - 道具使用配置表加载完成::FunctionMode
+2016-08-16 17:24:47 [ERROR] MainattributeMode.printLog(MainattributeMode.java:38) - 装备主要属性配置表加载完成::MainattributeMode
+2016-08-16 17:24:48 [ERROR] MonsterActionModel.printLog(MonsterActionModel.java:52) - 加载怪物行为完成!!!!!!!!!!!2::MonsterActionModel
+2016-08-16 17:24:48 [ERROR] MonsterGroupModel.printLog(MonsterGroupModel.java:52) - 加载怪物组完成!!!!!!!!!!!MonsterGroupModel
+2016-08-16 17:24:48 [ERROR] MonsterModel.printLog(MonsterModel.java:38) - 加载怪物完成!!!!!!!!!!!MonsterModel
+2016-08-16 17:24:48 [ERROR] PropertyModel.printLog(PropertyModel.java:58) - 加载道具配置属性表完成::PropertyModel
+2016-08-16 17:24:48 [ERROR] RoleLevelUpModel.printLog(RoleLevelUpModel.java:30) - 角色升级完成::RoleLevelUpModel
+2016-08-16 17:24:48 [ERROR] SocketMode.printLog(SocketMode.java:38) - 装备孔配置表加载完成::SocketMode
+2016-08-16 17:24:48 [ERROR] TaskConfigModel.printLog(TaskConfigModel.java:39) - 任务系统配置加载完成
+2016-08-16 17:24:48 [ERROR] TaskModel.printLog(TaskModel.java:38) - 任务配置加载完成
+2016-08-16 17:24:48 [ERROR] TeamConfigModel.printLog(TeamConfigModel.java:28) - 组队配置加载完成
+2016-08-16 17:24:48 [ INFO] HibernateTransactionManager.afterPropertiesSet(HibernateTransactionManager.java:339) - Using DataSource [{
+	CreateTime:"2016-08-16 17:24:46",
+	ActiveCount:0,
+	PoolingCount:1,
+	CreateCount:1,
+	DestroyCount:0,
+	CloseCount:2,
+	ConnectCount:2,
+	Connections:[
+		{ID:2054161905, ConnectTime:"2016-08-16 17:24:46", UseCount:2, LastActiveTime:"2016-08-16 17:24:47"}
+	]
+}
+
+[
+	{
+	ID:2054161905, 
+	poolStatements:[
+		]
+	}
+]] of Hibernate SessionFactory for HibernateTransactionManager
+2016-08-16 17:24:48 [ INFO] SpaceInfoManage.init(SpaceInfoManage.java:47) - ========初始化地图=======地图路径是F:\mye10\rotegamegitcode\gameyxd\EngineYxd\src\main\resources\map/
+2016-08-16 17:24:48 [ERROR] SpaceInfoManage.loadMap(SpaceInfoManage.java:86) - 地图加载F:\mye10\rotegamegitcode\gameyxd\EngineYxd\src\main\resources\map/city1_31.xml
+2016-08-16 17:24:48 [ INFO] SpaceInfoManage.loadSpaceInfo(SpaceInfoManage.java:111) - fuben. name = 主城
+2016-08-16 17:24:48 [ERROR] SpaceInfoManage.loadMap(SpaceInfoManage.java:86) - 地图加载F:\mye10\rotegamegitcode\gameyxd\EngineYxd\src\main\resources\map/d1d1_3.xml
+2016-08-16 17:24:48 [ INFO] SpaceInfoManage.loadSpaceInfo(SpaceInfoManage.java:111) - fuben. name = 寒冬下枫松寺院
+2016-08-16 17:24:48 [ERROR] SpaceInfoManage.loadMap(SpaceInfoManage.java:86) - 地图加载F:\mye10\rotegamegitcode\gameyxd\EngineYxd\src\main\resources\map/d2d1_4.xml
+2016-08-16 17:24:48 [ INFO] SpaceInfoManage.loadSpaceInfo(SpaceInfoManage.java:111) - fuben. name = 风雪山庄
+2016-08-16 17:24:48 [ERROR] SpaceInfoManage.loadMap(SpaceInfoManage.java:86) - 地图加载F:\mye10\rotegamegitcode\gameyxd\EngineYxd\src\main\resources\map/q1d1_2.xml
+2016-08-16 17:24:48 [ INFO] SpaceInfoManage.loadSpaceInfo(SpaceInfoManage.java:111) - fuben. name = 枫林寺
+2016-08-16 17:24:48 [ERROR] SpaceInfoManage.loadMap(SpaceInfoManage.java:86) - 地图加载F:\mye10\rotegamegitcode\gameyxd\EngineYxd\src\main\resources\map/x1d1_1.xml
+2016-08-16 17:24:48 [ INFO] SpaceInfoManage.loadSpaceInfo(SpaceInfoManage.java:111) - fuben. name = 翠竹轩
+2016-08-16 17:24:48 [ERROR] SpaceInfoManage.loadMap(SpaceInfoManage.java:86) - 地图加载F:\mye10\rotegamegitcode\gameyxd\EngineYxd\src\main\resources\map/xinshoucun_5.xml
+2016-08-16 17:24:48 [ INFO] SpaceInfoManage.loadSpaceInfo(SpaceInfoManage.java:111) - fuben. name = 新手村
+2016-08-16 17:24:48 [ INFO] SpaceInfoManage.init(SpaceInfoManage.java:56) - ========初始化地图完成=======
+2016-08-16 17:24:48 [ERROR] TxtModelManage.loadTxt(TxtModelManage.java:52) - 把资源全部读一遍开始!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2016-08-16 17:24:48 [ERROR] TxtModelManage.loadTxt(TxtModelManage.java:66) - 读到文本配置::AttributeDescModel
+2016-08-16 17:24:48 [ERROR] TxtModelManage.loadTxt(TxtModelManage.java:66) - 读到文本配置::AttributeModel
+2016-08-16 17:24:48 [ERROR] TxtModelManage.loadTxt(TxtModelManage.java:66) - 读到文本配置::BagConfigMode
+2016-08-16 17:24:48 [ERROR] TxtModelManage.loadTxt(TxtModelManage.java:66) - 读到文本配置::BuffModel
+2016-08-16 17:24:48 [ERROR] TxtModelManage.loadTxt(TxtModelManage.java:66) - 读到文本配置::BuffTypeModel
+2016-08-16 17:24:48 [ERROR] TxtModelManage.loadTxt(TxtModelManage.java:66) - 读到文本配置::CareerModel
+2016-08-16 17:24:48 [ERROR] TxtModelManage.loadTxt(TxtModelManage.java:66) - 读到文本配置::CareerTalentModel
+2016-08-16 17:24:48 [ERROR] TxtModelManage.loadTxt(TxtModelManage.java:66) - 读到文本配置::EquipmentConfigMode
+2016-08-16 17:24:48 [ERROR] TxtModelManage.loadTxt(TxtModelManage.java:66) - 读到文本配置::EquipmentLevelGrouthMode
+2016-08-16 17:24:48 [ERROR] TxtModelManage.loadTxt(TxtModelManage.java:66) - 读到文本配置::EquipmentPropertyModel
+2016-08-16 17:24:48 [ERROR] TxtModelManage.loadTxt(TxtModelManage.java:66) - 读到文本配置::EquipQualityMode
+2016-08-16 17:24:48 [ERROR] TxtModelManage.loadTxt(TxtModelManage.java:66) - 读到文本配置::FuBenTemplateModel
+2016-08-16 17:24:48 [ERROR] TxtModelManage.loadTxt(TxtModelManage.java:66) - 读到文本配置::FunctionMode
+2016-08-16 17:24:48 [ERROR] TxtModelManage.loadTxt(TxtModelManage.java:66) - 读到文本配置::MainattributeMode
+2016-08-16 17:24:48 [ERROR] TxtModelManage.loadTxt(TxtModelManage.java:66) - 读到文本配置::MonsterActionModel
+2016-08-16 17:24:48 [ERROR] TxtModelManage.loadTxt(TxtModelManage.java:66) - 读到文本配置::MonsterGroupModel
+2016-08-16 17:24:48 [ERROR] TxtModelManage.loadTxt(TxtModelManage.java:66) - 读到文本配置::MonsterModel
+2016-08-16 17:24:48 [ERROR] TxtModelManage.loadTxt(TxtModelManage.java:66) - 读到文本配置::NpcConfigPojoModel
+2016-08-16 17:24:48 [ERROR] TxtModelManage.loadTxt(TxtModelManage.java:66) - 读到文本配置::PropertyModel
+2016-08-16 17:24:48 [ERROR] TxtModelManage.loadTxt(TxtModelManage.java:66) - 读到文本配置::RoleInitModel
+2016-08-16 17:24:48 [ERROR] TxtModelManage.loadTxt(TxtModelManage.java:66) - 读到文本配置::RoleLevelUpModel
+2016-08-16 17:24:48 [ERROR] TxtModelManage.loadTxt(TxtModelManage.java:66) - 读到文本配置::SkillTemplateModel
+2016-08-16 17:24:48 [ERROR] TxtModelManage.loadTxt(TxtModelManage.java:66) - 读到文本配置::SkillUnitModel
+2016-08-16 17:24:48 [ERROR] TxtModelManage.loadTxt(TxtModelManage.java:66) - 读到文本配置::SocketMode
+2016-08-16 17:24:48 [ERROR] TxtModelManage.loadTxt(TxtModelManage.java:66) - 读到文本配置::TaskConfigModel
+2016-08-16 17:24:48 [ERROR] TxtModelManage.loadTxt(TxtModelManage.java:66) - 读到文本配置::TaskModel
+2016-08-16 17:24:48 [ERROR] TxtModelManage.loadTxt(TxtModelManage.java:66) - 读到文本配置::TeamConfigModel
+2016-08-16 17:24:48 [ERROR] TxtModelManage.loadTxt(TxtModelManage.java:70) - 把资源全部读一遍完成!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2016-08-16 17:24:48 [ INFO] MConnector.genarateConnect(AbsConnecorProxy.java:92) - 生成新服务器连接--->/192.168.40.47:1001 登录服 11
+2016-08-16 17:24:48 [ERROR] InnerServer.initProxy(InnerNetSever.java:62) - ======Э??????======
+2016-08-16 17:24:48 [ERROR] InnerServer.initProxy(InnerNetSever.java:67) - ======Э?????????======
+2016-08-16 17:24:48 [ERROR] InnerServer.initialize(InnerNetSever.java:101) - ======??????:4001???======
+2016-08-16 17:24:49 [ INFO] MConnector.doConnect(MConnector.java:110) - 登录服>连接未建立,尝试连接--->/192.168.40.47:1001 id=11

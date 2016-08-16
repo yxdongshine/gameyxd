@@ -42,7 +42,7 @@ public abstract class Start {
 			UserDir.USER_DIR = ars[1];
 		}
 		
-		setLog4jPath(ars[2], UserDir.USER_DIR + "/" + "log4j.properties");
+		setLog4jPath(ars[2], UserDir.USER_DIR + "\\" + "log4j.properties");
 		// PropertyConfigurator.configure(UserDir.USER_DIR + "/" + "log4j.properties");
 		SpringBeanFactory.springStart();
 		// ars[0]自己服务的标志

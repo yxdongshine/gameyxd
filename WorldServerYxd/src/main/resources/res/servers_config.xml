@@ -1,0 +1,72 @@
+<root zoneId="100">
+
+	<login>
+		<id>11</id>
+		<name>登录服</name>
+		<host>192.168.40.47</host>
+		<acceptor port="1001" />
+	</login>
+	
+	<session>
+		<id>21</id>
+		<name>网关服</name>
+		<host>0.0.0.0</host>
+		<group>sessGroup</group>
+		<!-- 内部端口-->
+		<acceptor port="2001" />
+		<!--外部mina端口-->
+		<minaAcceptor port="2002" />
+		<connector >   
+			<conn toId="41" />
+		</connector>
+	</session>
+	
+	<game>
+		<id>31</id>
+		<name>游戏服(一线)</name>
+		<host>0.0.0.0</host>
+		<group>gsGroup</group>
+		<acceptor port="3001" />
+		<connector>
+			<conn toId="41" />
+			<conn toGroup="sessGroup" />
+		</connector>
+		
+		<!-- <http httpPort="4171" />-->
+	</game>
+	
+	<world>
+		<id>41</id>
+		<name>世界服</name>
+		<host>0.0.0.0</host>
+		<acceptor port="4001"/>
+		<connector>
+			<conn toId="11" />
+		</connector>
+		<http httpPort="4102" />
+	</world>
+
+
+	<log>
+		<id>51</id>
+		<name>日志服</name>
+		<host>0.0.0.0</host>
+		<acceptor port="5001" />
+		<connector >
+			<conn toId="41" />
+			<conn toGroup="gsGroup" />
+		</connector>
+	</log>
+	
+	<client>
+		<id>61</id>
+		<name>客户端</name>
+		<host>192.168.40.47</host>
+		<connector >
+		<!--minaCon="true"-->
+			<conn toId="11"  />
+			
+		</connector>
+	</client>
+
+</root>

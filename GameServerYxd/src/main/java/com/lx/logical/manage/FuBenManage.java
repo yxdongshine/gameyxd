@@ -49,7 +49,7 @@ public class FuBenManage {
 	public void initWorldFuBen() {
 		log.info("=======初始化世界副本=======");
 		
-		for (FuBenTemplatePojo pojo : fuBenConfs.asArray()) {
+		for (FuBenTemplatePojo pojo : fuBenConfs.getReslList()) {
 			if (pojo.getType() == IConst.FUBEN_TYPE_WORLD) {
 				FuBen fuBen = (FuBen) SpringBeanFactory.getSpringBean("worldFuBen");
 				fuBen.init(pojo);

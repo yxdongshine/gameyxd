@@ -14,6 +14,8 @@ import java.io.File;
  */
 public class GameStart {
 	
+	public static final String resPath = "EngineYxd\\src\\main\\resources\\conf";
+
 	/**
 	 * main:(). <br/>
 	 * TODO().<br/>
@@ -25,7 +27,7 @@ public class GameStart {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		File f = new File(System.getProperty("user.dir"));
-		ServerStart.main(new String[] { "31", f.getParent() + File.separator + "Engine", "GameLog" });
+		ServerStart.main(new String[] { "31", f.getParent() + File.separator + resPath, "GameLog" });
 		// ServerInfoManage.loadContext(null);
 	}
 	

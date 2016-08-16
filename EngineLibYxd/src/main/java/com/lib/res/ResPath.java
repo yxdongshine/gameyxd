@@ -15,5 +15,5 @@ public interface ResPath {
 	/** 分隔符 **/
 	public static final String SEPARATE = "/";
 	
-	public static final String RES = UserDir.USER_DIR + "/res/";
+	public static final String RES = UserDir.USER_DIR.replace("\\conf", "\\");
 }

@@ -1,0 +1,323 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>GameServer</groupId>
+  <artifactId>GameServerYxd</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>GameServerYxd</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+     <repositories>
+	        <repository>
+	            <id>maven-central</id>
+	            <name>maven-central</name>
+	            <url>http://127.0.0.1:8081/repository/yxdGameRepository/</url>
+	            <snapshots>
+	                <enabled>true</enabled>
+	            </snapshots>
+	            <releases>
+	                <enabled>true</enabled>
+	            </releases>
+	        </repository>
+	  </repositories>
+	  <distributionManagement>
+        <snapshotRepository>
+            <id>nexus</id>
+            <name>Nexus Snapshot</name>
+            <url>http://127.0.0.1:8081/repository/maven-snapshots/</url>
+        </snapshotRepository>
+        <site>
+            <id>nexus</id>
+            <name>Nexus Sites</name>
+            <url>dav:http://127.0.0.1:8081/repository/maven-snapshots/</url>
+        </site>
+    </distributionManagement> 
+    
+  <dependencies>
+    	<!--日志依赖  -->
+	<!-- https://mvnrepository.com/artifact/log4j/log4j -->
+	<dependency>
+        <groupId>commons-logging</groupId>
+        <artifactId>commons-logging</artifactId>
+        <version>1.1</version>
+    </dependency>
+    <!--mina 依赖  -->
+	<!-- https://mvnrepository.com/artifact/org.apache.mina/mina-core -->
+	<dependency>
+	    <groupId>org.apache.mina</groupId>
+	    <artifactId>mina-core</artifactId>
+	    <version>2.0.13</version>
+	</dependency>
+	<!--protobuf 依赖  -->
+	<!-- https://mvnrepository.com/artifact/com.google.protobuf/protobuf-java -->
+	<dependency>
+	    <groupId>com.google.protobuf</groupId>
+	    <artifactId>protobuf-java</artifactId>
+	    <version>2.5.0</version>
+	</dependency>
+	
+    <!-- dom解析 -->
+    <!-- https://mvnrepository.com/artifact/dom4j/dom4j -->
+	<dependency>
+	    <groupId>dom4j</groupId>
+	    <artifactId>dom4j</artifactId>
+	    <version>1.6.1</version>
+	</dependency>
+	
+	<!--依赖自定义网络包解析  -->
+    <dependency>  
+	  <groupId>GameProtocol</groupId>
+	  <artifactId>GameProtocolYxd</artifactId>
+	  <version>0.0.1-SNAPSHOT</version>
+    </dependency>   
+    <!--依赖类解析包 自定义  -->
+    <dependency>  
+	  <groupId>ClassUtil</groupId>
+	  <artifactId>ClassUtilYxd</artifactId>
+	  <version>0.0.1-SNAPSHOT</version>
+    </dependency>   
+   <!--依赖定定义 消息类型包  --> 
+    <dependency>
+       <groupId>MinaNetwork</groupId>
+	   <artifactId>MinaNetworkYxd</artifactId>
+	   <version>0.0.1-SNAPSHOT</version>
+    </dependency>
+    <!--依赖自定义protocolbuf 包  -->
+    <dependency>
+      <groupId>Protobuf</groupId>
+	  <artifactId>ProtobufYxd</artifactId>
+	  <version>0.0.1-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+    <!--spring 依赖  -->
+    <!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
+	<dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-context</artifactId>
+	    <version>3.2.2.RELEASE</version>
+	</dependency>
+		<!-- https://mvnrepository.com/artifact/org.springframework/spring-beans -->
+	<dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-beans</artifactId>
+	    <version>3.2.2.RELEASE</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.springframework/spring-core -->
+	<dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-core</artifactId>
+	    <version>3.2.2.RELEASE</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.springframework/spring-tx -->
+	<dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-tx</artifactId>
+	    <version>3.2.2.RELEASE</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.springframework/spring-aop -->
+	<dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-aop</artifactId>
+	    <version>3.2.2.RELEASE</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.springframework/spring-context-support -->
+	<dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-context-support</artifactId>
+	    <version>3.2.2.RELEASE</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.springframework/spring-expression -->
+	<dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-expression</artifactId>
+	    <version>3.2.2.RELEASE</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.springframework/spring-aspects -->
+	<dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-aspects</artifactId>
+	    <version>3.2.2.RELEASE</version>
+	</dependency>
+
+	<!-- https://mvnrepository.com/artifact/org.springframework/spring-orm -->
+	<dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-orm</artifactId>
+	    <version>3.2.2.RELEASE</version>
+	</dependency>
+
+	<!-- https://mvnrepository.com/artifact/org.springframework/spring-jdbc -->
+	<dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-jdbc</artifactId>
+	    <version>3.2.17.RELEASE</version>
+	</dependency>
+
+
+	<!--hibernate依赖  --> 
+	<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
+	<dependency>
+	    <groupId>org.hibernate</groupId>
+	    <artifactId>hibernate-core</artifactId>
+	    <version>4.1.7.Final</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate -->
+	<!-- <dependency>
+	    <groupId>org.hibernate</groupId>
+	    <artifactId>hibernate</artifactId>
+	    <version>3.2.7.ga</version>
+	</dependency> -->
+
+
+	<!-- https://mvnrepository.com/artifact/javax.persistence/persistence-api -->
+	<!-- <dependency>
+	    <groupId>javax.persistence</groupId>
+	    <artifactId>persistence-api</artifactId>
+	    <version>1.0.2</version>
+	</dependency> -->
+
+	<!-- https://mvnrepository.com/artifact/org.hibernate.javax.persistence/hibernate-jpa-2.0-api -->
+	<!-- <dependency>
+	    <groupId>org.hibernate.javax.persistence</groupId>
+	    <artifactId>hibernate-jpa-2.0-api</artifactId>
+	    <version>1.0.1.Final</version>
+	</dependency> -->
+	<!-- https://mvnrepository.com/artifact/javax.transaction/jta -->
+	<!-- <dependency>
+	    <groupId>javax.transaction</groupId>
+	    <artifactId>jta</artifactId>
+	    <version>1.1</version>
+	</dependency> -->
+	<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-annotations -->
+	<!-- <dependency>
+	    <groupId>org.hibernate</groupId>
+	    <artifactId>hibernate-annotations</artifactId>
+	    <version>3.5.6-Final</version>
+	</dependency> -->
+<!-- https://mvnrepository.com/artifact/org.hibernate/ejb3-persistence -->
+<!-- <dependency>
+    <groupId>org.hibernate</groupId>
+    <artifactId>ejb3-persistence</artifactId>
+    <version>1.0.2.GA</version>
+    <type>pom</type>
+</dependency> -->
+
+
+
+
+
+
+
+	<!--fastjson 解析  -->   
+	<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core -->
+	<dependency>
+	    <groupId>com.fasterxml.jackson.core</groupId>
+	    <artifactId>jackson-core</artifactId>
+	    <version>2.7.3</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
+	<dependency>
+	    <groupId>com.fasterxml.jackson.core</groupId>
+	    <artifactId>jackson-databind</artifactId>
+	    <version>2.7.4</version>
+	</dependency>
+   <!--连接池依赖  -->
+   <!-- https://mvnrepository.com/artifact/c3p0/c3p0 -->
+	<dependency>
+	    <groupId>c3p0</groupId>
+	    <artifactId>c3p0</artifactId>
+	    <version>0.9.1.2</version>
+	</dependency>
+	<!--Druid连接池包 -->
+         <dependency>
+             <groupId>com.alibaba</groupId>
+             <artifactId>druid</artifactId>
+             <version>1.0.12</version>
+         </dependency>
+   			<!-- mysql的数据库驱动 -->
+			<dependency>
+				<groupId>mysql</groupId>
+				<artifactId>mysql-connector-java</artifactId>
+				<version>5.1.21</version>
+			</dependency>
+			    <!-- dom解析 -->
+    <!-- https://mvnrepository.com/artifact/dom4j/dom4j -->
+	<dependency>
+	    <groupId>dom4j</groupId>
+	    <artifactId>dom4j</artifactId>
+	    <version>1.6.1</version>
+	</dependency>
+	        <dependency>
+            <groupId>jaxen</groupId>
+            <artifactId>jaxen</artifactId>
+            <version>1.1.1</version>
+        </dependency>
+        
+     <!--依赖自定义项目  -->
+     <dependency>
+	      <groupId>ClassUtil</groupId>
+		  <artifactId>ClassUtilYxd</artifactId>
+		  <version>0.0.1-SNAPSHOT</version>
+	</dependency>  
+	<dependency>
+		  <groupId>EngineLib</groupId>
+		  <artifactId>EngineLibYxd</artifactId>
+		  <version>0.0.1-SNAPSHOT</version>
+	</dependency>    
+	<dependency>
+	  <groupId>TxtResource</groupId>
+	  <artifactId>TxtResourceYxd</artifactId>
+	  <version>0.0.1-SNAPSHOT</version>
+	</dependency>   
+	<dependency>
+	    <groupId>Engine</groupId>
+		<artifactId>EngineYxd</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</dependency>  
+  </dependencies>
+  
+  
+  <!-- 打包环境配置切换 -->
+  <profiles>
+        <profile>
+            <id>dev</id>
+            <activation>
+                <!--默认激活开发配制-->
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <build>
+                <filters>
+                    <filter>src/main/filters/dev.properties</filter>
+                </filters>
+            </build>
+        </profile>
+        <profile>
+            <id>test</id>
+            <build>
+                <filters>
+                    <filter>src/main/filters/test.properties</filter>
+                </filters>
+            </build>
+        </profile>
+        <profile>
+            <id>pro</id>
+            <build>
+                <filters>
+                    <filter>src/main/filters/pro.properties</filter>
+                </filters>
+            </build>
+        </profile>
+    </profiles>
+</project>

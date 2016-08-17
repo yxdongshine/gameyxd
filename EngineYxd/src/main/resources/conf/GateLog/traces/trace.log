@@ -1,0 +1,125 @@
+2016-08-16 18:17:53 [ INFO] ClassPathXmlApplicationContext.prepareRefresh(AbstractApplicationContext.java:510) - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7bf90a55: startup date [Tue Aug 16 18:17:53 CST 2016]; root of context hierarchy
+2016-08-16 18:17:53 [ INFO] XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315) - Loading XML bean definitions from class path resource [beans.xml]
+2016-08-16 18:17:54 [ INFO] PropertyPlaceholderConfigurer.loadProperties(PropertiesLoaderSupport.java:172) - Loading properties file from URL [file:F:/mye10/rotegamegitcode/gameyxd/GateServerYxd/src/main/resources/config/jdbc.properties]
+2016-08-16 18:17:54 [ INFO] DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:596) - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@65694399: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,innerClientControl,innerServerControl,minaServerControl,heartManage,innerClient,innerServer,innerClientListener,innerServerListener,minaServerListener,minaServer,initializeManage,gameGateEnterGameSuccessResponseTask,heartResponseTask,txtModelManage,attributeDescModel,attributeModel,bagConfigMode,buffModel,buffTypeModel,careerModel,careerTalentModel,equipmentConfigMode,equipmentLevelGrouthMode,equipmentPropertyModel,equipQualityMode,fuBenTemplateModel,functionMode,mainattributeMode,monsterActionModel,monsterGroupModel,monsterModel,npcConfigPojoModel,propertyModel,roleInitModel,roleLevelUpModel,skillTemplateModel,skillUnitModel,socketMode,taskConfigModel,taskModel,teamConfigModel,bagConfigLoad,itemManage,itemConfigLoad,registerResponseTask,requestTaskAdapter,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,dataSource,sf,entityDAO,logDAO,txManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+2016-08-16 18:17:54 [ INFO] DefaultListableBeanFactory.destroySingletons(DefaultSingletonBeanRegistry.java:444) - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@65694399: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,innerClientControl,innerServerControl,minaServerControl,heartManage,innerClient,innerServer,innerClientListener,innerServerListener,minaServerListener,minaServer,initializeManage,gameGateEnterGameSuccessResponseTask,heartResponseTask,txtModelManage,attributeDescModel,attributeModel,bagConfigMode,buffModel,buffTypeModel,careerModel,careerTalentModel,equipmentConfigMode,equipmentLevelGrouthMode,equipmentPropertyModel,equipQualityMode,fuBenTemplateModel,functionMode,mainattributeMode,monsterActionModel,monsterGroupModel,monsterModel,npcConfigPojoModel,propertyModel,roleInitModel,roleLevelUpModel,skillTemplateModel,skillUnitModel,socketMode,taskConfigModel,taskModel,teamConfigModel,bagConfigLoad,itemManage,itemConfigLoad,registerResponseTask,requestTaskAdapter,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,dataSource,sf,entityDAO,logDAO,txManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+2016-08-16 18:20:58 [ INFO] ClassPathXmlApplicationContext.prepareRefresh(AbstractApplicationContext.java:510) - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7bf90a55: startup date [Tue Aug 16 18:20:58 CST 2016]; root of context hierarchy
+2016-08-16 18:20:58 [ INFO] XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315) - Loading XML bean definitions from class path resource [beans.xml]
+2016-08-16 18:20:59 [ INFO] DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:663) - Overriding bean definition for bean 'entityDAO': replacing [Generic bean: class [com.engine.dbdao.EntityDAO]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [F:\mye10\rotegamegitcode\gameyxd\EngineYxd\target\classes\com\engine\dbdao\EntityDAO.class]] with [Generic bean: class [com.engine.dbdao.EntityDAO]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [beans.xml]]
+2016-08-16 18:20:59 [ INFO] DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:663) - Overriding bean definition for bean 'logDAO': replacing [Generic bean: class [com.engine.dbdao.LogDAO]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [F:\mye10\rotegamegitcode\gameyxd\EngineYxd\target\classes\com\engine\dbdao\LogDAO.class]] with [Generic bean: class [com.engine.dbdao.LogDAO]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [beans.xml]]
+2016-08-16 18:20:59 [ INFO] PropertyPlaceholderConfigurer.loadProperties(PropertiesLoaderSupport.java:172) - Loading properties file from URL [file:F:/mye10/rotegamegitcode/gameyxd/GateServerYxd/src/main/resources/config/jdbc.properties]
+2016-08-16 18:20:59 [ INFO] DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:596) - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@581f8a98: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,innerClientControl,innerServerControl,minaServerControl,heartManage,innerClient,innerServer,innerClientListener,innerServerListener,minaServerListener,minaServer,initializeManage,gameGateEnterGameSuccessResponseTask,heartResponseTask,txtModelManage,attributeDescModel,attributeModel,bagConfigMode,buffModel,buffTypeModel,careerModel,careerTalentModel,equipmentConfigMode,equipmentLevelGrouthMode,equipmentPropertyModel,equipQualityMode,fuBenTemplateModel,functionMode,mainattributeMode,monsterActionModel,monsterGroupModel,monsterModel,npcConfigPojoModel,propertyModel,roleInitModel,roleLevelUpModel,skillTemplateModel,skillUnitModel,socketMode,taskConfigModel,taskModel,teamConfigModel,bagConfigLoad,itemManage,itemConfigLoad,registerResponseTask,requestTaskAdapter,spaceInfoManage,entityDAO,logDAO,gameHttpServer,configFactory,commondClassLoader,timerCallbackThread,timerThread,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,dataSource,sf,txManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+2016-08-16 18:20:59 [ INFO] FuBenTemplateModel.printLog(FuBenTemplateModel.java:27) - 加载副本配置表完成！FuBenTemplateModel
+2016-08-16 18:20:59 [ INFO] SkillTemplateModel.printLog(SkillTemplateModel.java:30) - 加载技能配置表完成!SkillTemplateModel
+2016-08-16 18:20:59 [ERROR] SkillUnitModel.printLog(SkillUnitModel.java:31) - 技能伤害单元加载完成::SkillUnitModel
+2016-08-16 18:20:59 [ INFO] MLog.<clinit>(MLog.java:80) - MLog clients using log4j logging.
+2016-08-16 18:20:59 [ INFO] C3P0Registry.banner(C3P0Registry.java:204) - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2016-08-16 18:21:00 [ INFO] Version.<clinit>(Version.java:37) - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-08-16 18:21:00 [ INFO] Version.logVersion(Version.java:41) - HHH000412: Hibernate Core {4.1.7.Final}
+2016-08-16 18:21:00 [ INFO] Environment.<clinit>(Environment.java:239) - HHH000206: hibernate.properties not found
+2016-08-16 18:21:00 [ INFO] Environment.buildBytecodeProvider(Environment.java:342) - HHH000021: Bytecode provider name : javassist
+2016-08-16 18:21:00 [ INFO] AbstractPoolBackedDataSource.getPoolManager(AbstractPoolBackedDataSource.java:462) - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 5, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge8tr9i14r11161ywjqeu|6f10ba23, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge8tr9i14r11161ywjqeu|6f10ba23, idleConnectionTestPeriod -> 0, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://192.168.40.228:3306/loncent_game_server?useUnicode=true&amp;characterEncoding=UTF-8", maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 7200, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 600, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2016-08-16 18:21:01 [ INFO] Dialect.<init>(Dialect.java:125) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-08-16 18:21:01 [ INFO] LobCreatorBuilder.useContextualLobCreation(LobCreatorBuilder.java:120) - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2016-08-16 18:21:01 [ INFO] TransactionFactoryInitiator.initiateService(TransactionFactoryInitiator.java:68) - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-08-16 18:21:01 [ INFO] ASTQueryTranslatorFactory.<init>(ASTQueryTranslatorFactory.java:48) - HHH000397: Using ASTQueryTranslatorFactory
+2016-08-16 18:21:01 [ INFO] SchemaUpdate.execute(SchemaUpdate.java:182) - HHH000228: Running hbm2ddl schema update
+2016-08-16 18:21:01 [ INFO] SchemaUpdate.execute(SchemaUpdate.java:193) - HHH000102: Fetching database metadata
+2016-08-16 18:21:01 [ INFO] SchemaUpdate.execute(SchemaUpdate.java:205) - HHH000396: Updating schema
+2016-08-16 18:21:01 [ INFO] TableMetadata.<init>(TableMetadata.java:65) - HHH000261: Table found: loncent_game_server.buffData
+2016-08-16 18:21:01 [ INFO] TableMetadata.<init>(TableMetadata.java:66) - HHH000037: Columns: [id, roleid, buffinfos]
+2016-08-16 18:21:01 [ INFO] TableMetadata.<init>(TableMetadata.java:68) - HHH000108: Foreign keys: []
+2016-08-16 18:21:01 [ INFO] TableMetadata.<init>(TableMetadata.java:69) - HHH000126: Indexes: [primary]
+2016-08-16 18:21:01 [ INFO] TableMetadata.<init>(TableMetadata.java:65) - HHH000261: Table found: loncent_game_server.equipmentitem
+2016-08-16 18:21:01 [ INFO] TableMetadata.<init>(TableMetadata.java:66) - HHH000037: Columns: [renewtimes, itemtype, id, level, roleid, configid, indexinbag, score, quality, socket, number, pos, effecttime]
+2016-08-16 18:21:01 [ INFO] TableMetadata.<init>(TableMetadata.java:68) - HHH000108: Foreign keys: []
+2016-08-16 18:21:01 [ INFO] TableMetadata.<init>(TableMetadata.java:69) - HHH000126: Indexes: [primary]
+2016-08-16 18:21:01 [ INFO] TableMetadata.<init>(TableMetadata.java:65) - HHH000261: Table found: loncent_game_server.role
+2016-08-16 18:21:01 [ INFO] TableMetadata.<init>(TableMetadata.java:66) - HHH000037: Columns: [hp, titleconfigid, passedfubenuids, vits, agility, createtime, id, username, rolename, defence, dir, mapuid, money, maintaskindex, rechargegold, loginouttime, equitgridnumber, control, viplevel, mp, curexp, rolelevel, guildid, serverid, guildname, innerforce, guideinfo, careerconfigid, bindgold, anger, fubenid, tenacity, counterstr, air, loginintime, onlinetime, z, commongridnumber, chinesezodiacid, y, x]
+2016-08-16 18:21:01 [ INFO] TableMetadata.<init>(TableMetadata.java:68) - HHH000108: Foreign keys: []
+2016-08-16 18:21:01 [ INFO] TableMetadata.<init>(TableMetadata.java:69) - HHH000126: Indexes: [user_name, primary, role_name]
+2016-08-16 18:21:01 [ INFO] TableMetadata.<init>(TableMetadata.java:65) - HHH000261: Table found: loncent_game_server.skillData
+2016-08-16 18:21:01 [ INFO] TableMetadata.<init>(TableMetadata.java:66) - HHH000037: Columns: [id, roleid, skilldata]
+2016-08-16 18:21:01 [ INFO] TableMetadata.<init>(TableMetadata.java:68) - HHH000108: Foreign keys: []
+2016-08-16 18:21:01 [ INFO] TableMetadata.<init>(TableMetadata.java:69) - HHH000126: Indexes: [primary]
+2016-08-16 18:21:01 [ INFO] TableMetadata.<init>(TableMetadata.java:65) - HHH000261: Table found: loncent_game_server.taskdata
+2016-08-16 18:21:01 [ INFO] TableMetadata.<init>(TableMetadata.java:66) - HHH000037: Columns: [npcid, id, taskstate, ts, roleid, finishnumber]
+2016-08-16 18:21:01 [ INFO] TableMetadata.<init>(TableMetadata.java:68) - HHH000108: Foreign keys: []
+2016-08-16 18:21:01 [ INFO] TableMetadata.<init>(TableMetadata.java:69) - HHH000126: Indexes: [primary]
+2016-08-16 18:21:01 [ INFO] SchemaUpdate.execute(SchemaUpdate.java:240) - HHH000232: Schema update complete
+2016-08-16 18:21:01 [ERROR] AttributeDescModel.printLog(AttributeDescModel.java:51) - 加载属性说明完成!!!!!!!!!!!AttributeDescModel
+2016-08-16 18:21:01 [ERROR] AttributeModel.printLog(AttributeModel.java:53) - 加载属性完成!!!!!!!!!!!AttributeModel
+2016-08-16 18:21:01 [ERROR] BagConfigMode.printLog(BagConfigMode.java:38) - 背包购买设置表加载完成::BagConfigMode
+2016-08-16 18:21:01 [ INFO] BuffModel.printLog(BuffModel.java:23) - Buff总表加载完成!!!BuffModel
+2016-08-16 18:21:01 [ INFO] BuffTypeModel.printLog(BuffTypeModel.java:23) - Buff类别加载完成！！！BuffTypeModel
+2016-08-16 18:21:01 [ERROR] CareerModel.printLog(CareerModel.java:31) - 加载职业完成:CareerModel
+2016-08-16 18:21:01 [ERROR] CareerTalentModel.printLog(CareerTalentModel.java:51) - 加载职业资质完成---CareerTalentModel
+2016-08-16 18:21:01 [ERROR] EquipmentPropertyModel.printLog(EquipmentConfigMode.java:38) - 装备配置表加载完成::EquipmentConfigMode
+2016-08-16 18:21:01 [ERROR] EquipmentLevelGrouthMode.printLog(EquipmentLevelGrouthMode.java:38) - 装备成长配置表加载完成::EquipmentLevelGrouthMode
+2016-08-16 18:21:01 [ERROR] EquipmentPropertyModel.printLog(EquipmentPropertyModel.java:38) - 装备原型配置表加载完成::EquipmentPropertyModel
+2016-08-16 18:21:01 [ERROR] EquipQualityMode.printLog(EquipQualityMode.java:38) - 装备质量配置表加载完成::EquipQualityMode
+2016-08-16 18:21:01 [ERROR] PropertyModel.printLog(FunctionMode.java:38) - 道具使用配置表加载完成::FunctionMode
+2016-08-16 18:21:01 [ERROR] MainattributeMode.printLog(MainattributeMode.java:38) - 装备主要属性配置表加载完成::MainattributeMode
+2016-08-16 18:21:01 [ERROR] MonsterActionModel.printLog(MonsterActionModel.java:52) - 加载怪物行为完成!!!!!!!!!!!2::MonsterActionModel
+2016-08-16 18:21:01 [ERROR] MonsterGroupModel.printLog(MonsterGroupModel.java:52) - 加载怪物组完成!!!!!!!!!!!MonsterGroupModel
+2016-08-16 18:21:01 [ERROR] MonsterModel.printLog(MonsterModel.java:38) - 加载怪物完成!!!!!!!!!!!MonsterModel
+2016-08-16 18:21:01 [ERROR] PropertyModel.printLog(PropertyModel.java:58) - 加载道具配置属性表完成::PropertyModel
+2016-08-16 18:21:01 [ERROR] RoleInitModel.printLog(RoleInitModel.java:30) - 角色初始化数据完成::RoleInitModel
+2016-08-16 18:21:01 [ERROR] RoleLevelUpModel.printLog(RoleLevelUpModel.java:30) - 角色升级完成::RoleLevelUpModel
+2016-08-16 18:21:01 [ERROR] SocketMode.printLog(SocketMode.java:38) - 装备孔配置表加载完成::SocketMode
+2016-08-16 18:21:01 [ERROR] TaskConfigModel.printLog(TaskConfigModel.java:39) - 任务系统配置加载完成
+2016-08-16 18:21:01 [ERROR] TaskModel.printLog(TaskModel.java:38) - 任务配置加载完成
+2016-08-16 18:21:01 [ERROR] TeamConfigModel.printLog(TeamConfigModel.java:28) - 组队配置加载完成
+2016-08-16 18:21:01 [ INFO] HibernateTransactionManager.afterPropertiesSet(HibernateTransactionManager.java:339) - Using DataSource [com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 5, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge8tr9i14r11161ywjqeu|6f10ba23, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge8tr9i14r11161ywjqeu|6f10ba23, idleConnectionTestPeriod -> 0, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://192.168.40.228:3306/loncent_game_server?useUnicode=true&amp;characterEncoding=UTF-8", maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 7200, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 600, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]] of Hibernate SessionFactory for HibernateTransactionManager
+2016-08-16 18:21:01 [ INFO] SpaceInfoManage.init(SpaceInfoManage.java:47) - ========初始化地图=======地图路径是F:\mye10\rotegamegitcode\gameyxd\EngineYxd\src\main\resources\map/
+2016-08-16 18:21:01 [ERROR] SpaceInfoManage.loadMap(SpaceInfoManage.java:86) - 地图加载F:\mye10\rotegamegitcode\gameyxd\EngineYxd\src\main\resources\map/city1_31.xml
+2016-08-16 18:21:01 [ INFO] SpaceInfoManage.loadSpaceInfo(SpaceInfoManage.java:111) - fuben. name = 主城
+2016-08-16 18:21:01 [ERROR] SpaceInfoManage.loadMap(SpaceInfoManage.java:86) - 地图加载F:\mye10\rotegamegitcode\gameyxd\EngineYxd\src\main\resources\map/d1d1_3.xml
+2016-08-16 18:21:01 [ INFO] SpaceInfoManage.loadSpaceInfo(SpaceInfoManage.java:111) - fuben. name = 寒冬下枫松寺院
+2016-08-16 18:21:01 [ERROR] SpaceInfoManage.loadMap(SpaceInfoManage.java:86) - 地图加载F:\mye10\rotegamegitcode\gameyxd\EngineYxd\src\main\resources\map/d2d1_4.xml
+2016-08-16 18:21:01 [ INFO] SpaceInfoManage.loadSpaceInfo(SpaceInfoManage.java:111) - fuben. name = 风雪山庄
+2016-08-16 18:21:01 [ERROR] SpaceInfoManage.loadMap(SpaceInfoManage.java:86) - 地图加载F:\mye10\rotegamegitcode\gameyxd\EngineYxd\src\main\resources\map/q1d1_2.xml
+2016-08-16 18:21:01 [ INFO] SpaceInfoManage.loadSpaceInfo(SpaceInfoManage.java:111) - fuben. name = 枫林寺
+2016-08-16 18:21:01 [ERROR] SpaceInfoManage.loadMap(SpaceInfoManage.java:86) - 地图加载F:\mye10\rotegamegitcode\gameyxd\EngineYxd\src\main\resources\map/x1d1_1.xml
+2016-08-16 18:21:01 [ INFO] SpaceInfoManage.loadSpaceInfo(SpaceInfoManage.java:111) - fuben. name = 翠竹轩
+2016-08-16 18:21:02 [ERROR] SpaceInfoManage.loadMap(SpaceInfoManage.java:86) - 地图加载F:\mye10\rotegamegitcode\gameyxd\EngineYxd\src\main\resources\map/xinshoucun_5.xml
+2016-08-16 18:21:02 [ INFO] SpaceInfoManage.loadSpaceInfo(SpaceInfoManage.java:111) - fuben. name = 新手村
+2016-08-16 18:21:02 [ INFO] SpaceInfoManage.init(SpaceInfoManage.java:56) - ========初始化地图完成=======
+2016-08-16 18:21:02 [ERROR] TxtModelManage.loadTxt(TxtModelManage.java:52) - 把资源全部读一遍开始!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2016-08-16 18:21:02 [ERROR] TxtModelManage.loadTxt(TxtModelManage.java:66) - 读到文本配置::AttributeDescModel
+2016-08-16 18:21:02 [ERROR] TxtModelManage.loadTxt(TxtModelManage.java:66) - 读到文本配置::AttributeModel
+2016-08-16 18:21:02 [ERROR] TxtModelManage.loadTxt(TxtModelManage.java:66) - 读到文本配置::BagConfigMode
+2016-08-16 18:21:02 [ERROR] TxtModelManage.loadTxt(TxtModelManage.java:66) - 读到文本配置::BuffModel
+2016-08-16 18:21:02 [ERROR] TxtModelManage.loadTxt(TxtModelManage.java:66) - 读到文本配置::BuffTypeModel
+2016-08-16 18:21:02 [ERROR] TxtModelManage.loadTxt(TxtModelManage.java:66) - 读到文本配置::CareerModel
+2016-08-16 18:21:02 [ERROR] TxtModelManage.loadTxt(TxtModelManage.java:66) - 读到文本配置::CareerTalentModel
+2016-08-16 18:21:02 [ERROR] TxtModelManage.loadTxt(TxtModelManage.java:66) - 读到文本配置::EquipmentConfigMode
+2016-08-16 18:21:02 [ERROR] TxtModelManage.loadTxt(TxtModelManage.java:66) - 读到文本配置::EquipmentLevelGrouthMode
+2016-08-16 18:21:02 [ERROR] TxtModelManage.loadTxt(TxtModelManage.java:66) - 读到文本配置::EquipmentPropertyModel
+2016-08-16 18:21:02 [ERROR] TxtModelManage.loadTxt(TxtModelManage.java:66) - 读到文本配置::EquipQualityMode
+2016-08-16 18:21:02 [ERROR] TxtModelManage.loadTxt(TxtModelManage.java:66) - 读到文本配置::FuBenTemplateModel
+2016-08-16 18:21:02 [ERROR] TxtModelManage.loadTxt(TxtModelManage.java:66) - 读到文本配置::FunctionMode
+2016-08-16 18:21:02 [ERROR] TxtModelManage.loadTxt(TxtModelManage.java:66) - 读到文本配置::MainattributeMode
+2016-08-16 18:21:02 [ERROR] TxtModelManage.loadTxt(TxtModelManage.java:66) - 读到文本配置::MonsterActionModel
+2016-08-16 18:21:02 [ERROR] TxtModelManage.loadTxt(TxtModelManage.java:66) - 读到文本配置::MonsterGroupModel
+2016-08-16 18:21:02 [ERROR] TxtModelManage.loadTxt(TxtModelManage.java:66) - 读到文本配置::MonsterModel
+2016-08-16 18:21:02 [ERROR] TxtModelManage.loadTxt(TxtModelManage.java:66) - 读到文本配置::NpcConfigPojoModel
+2016-08-16 18:21:02 [ERROR] TxtModelManage.loadTxt(TxtModelManage.java:66) - 读到文本配置::PropertyModel
+2016-08-16 18:21:02 [ERROR] TxtModelManage.loadTxt(TxtModelManage.java:66) - 读到文本配置::RoleInitModel
+2016-08-16 18:21:02 [ERROR] TxtModelManage.loadTxt(TxtModelManage.java:66) - 读到文本配置::RoleLevelUpModel
+2016-08-16 18:21:02 [ERROR] TxtModelManage.loadTxt(TxtModelManage.java:66) - 读到文本配置::SkillTemplateModel
+2016-08-16 18:21:02 [ERROR] TxtModelManage.loadTxt(TxtModelManage.java:66) - 读到文本配置::SkillUnitModel
+2016-08-16 18:21:02 [ERROR] TxtModelManage.loadTxt(TxtModelManage.java:66) - 读到文本配置::SocketMode
+2016-08-16 18:21:02 [ERROR] TxtModelManage.loadTxt(TxtModelManage.java:66) - 读到文本配置::TaskConfigModel
+2016-08-16 18:21:02 [ERROR] TxtModelManage.loadTxt(TxtModelManage.java:66) - 读到文本配置::TaskModel
+2016-08-16 18:21:02 [ERROR] TxtModelManage.loadTxt(TxtModelManage.java:66) - 读到文本配置::TeamConfigModel
+2016-08-16 18:21:02 [ERROR] TxtModelManage.loadTxt(TxtModelManage.java:70) - 把资源全部读一遍完成!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2016-08-16 18:21:02 [ INFO] MConnector.genarateConnect(AbsConnecorProxy.java:92) - 生成新服务器连接--->/0.0.0.0:4001 世界服 41
+2016-08-16 18:21:02 [ERROR] InnerServer.initProxy(InnerNetSever.java:62) - ======Э??????======
+2016-08-16 18:21:02 [ERROR] InnerServer.initProxy(InnerNetSever.java:67) - ======Э?????????======
+2016-08-16 18:21:02 [ERROR] InnerServer.initialize(InnerNetSever.java:101) - ======??????:2001???======
+2016-08-16 18:21:02 [ERROR] MinaServer.initProxy(MinaNetSever.java:62) - ======Э??????======
+2016-08-16 18:21:02 [ERROR] MinaServer.initProxy(MinaNetSever.java:67) - ======Э?????????======
+2016-08-16 18:21:02 [ERROR] MinaServer.initialize(MinaNetSever.java:107) - ======??????:2002???======
+2016-08-16 18:21:03 [ INFO] MConnector.doConnect(MConnector.java:110) - 世界服>连接未建立,尝试连接--->/0.0.0.0:4001 id=41
+2016-08-16 18:21:13 [ INFO] MConnector.doConnect(MConnector.java:110) - 世界服>连接未建立,尝试连接--->/0.0.0.0:4001 id=41
